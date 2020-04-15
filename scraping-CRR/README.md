@@ -9,5 +9,5 @@ CRR;
 To-do:
 all the RTS's.
 
-Unfortunately, some of the guidelines are in pdf format and I could not find an online version (for example https://www.bankingsupervision.europa.eu/ecb/pub/pdf/ssm.guidetointernalmodels_consolidated_201910~97fd49fb08.en.pdf).
+Unfortunately, some of the guidelines are in pdf format and I could not find an html version (for example https://www.bankingsupervision.europa.eu/ecb/pub/pdf/ssm.guidetointernalmodels_consolidated_201910~97fd49fb08.en.pdf).
 Still trying to figure out how to scrape those.
