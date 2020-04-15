@@ -189,5 +189,6 @@ for i in range(len(csv)):
     else:
         print(i)
         
+df.to_csv('ECB guide to internal models Credit risk checklist.csv', index=False)
 
 
