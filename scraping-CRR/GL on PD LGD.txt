@@ -1,0 +1,1809 @@
+GUIDELINES ON PD ESTIMATION, LGD ESTIMATION AND TREATMENT DEFAULTED EXPOSURES
+1 Compliance and reporting obligations
+Status of these guidelines
+1. This document contains guidelines issued pursuant to Article 16 of Regulation (EU) No
+1093/2010. In accordance with Article 16(3) of Regulation (EU) No 1093/2010, competent
+authorities and financial institutions must make every effort to comply with the guidelines.
+2. Guidelines set out the EBA’s view of appropriate supervisory practices within the European
+System of Financial Supervision or of how Union law should be applied in a particular area.
+Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom
+guidelines apply should comply by incorporating them into their practices as appropriate (e.g.
+by amending their legal framework or their supervisory processes), including where guidelines
+are directed primarily at institutions.
+Reporting requirements
+3. In accordance with Article 16(3) of Regulation (EU) No 1093/2010, competent authorities
+must notify the EBA as to whether they comply or intend to comply with these guidelines, or
+otherwise give reasons for non-compliance, by ([dd.mm.yyyy]). In the absence of any
+notification by this deadline, competent authorities will be considered by the EBA to be non-compliant. Notifications should be sent by submitting the form available on the EBA website
+to compliance@eba.europa.eu with the reference ‘EBA/GL/201x/xx’. Notifications should be
+submitted by persons with appropriate authority to report compliance on behalf of their
+competent authorities. Any change in the status of compliance must also be reported to the
+EBA.
+4. Notifications will be published on the EBA website, in line with Article 16(3).
+
+2 Subject matter, scope and definitions
+2.1 Subject matter
+5. These guidelines specify the requirements for the estimation of probability of default (PD)
+and loss given default (LGD), including LGD for defaulted exposures (LGD in-default) and best
+estimate of expected loss (ELBE) in accordance with Part Three, Title II, Chapter 3, Section 6 of
+Regulation (EU) No 575/2013, Article 159 of that Regulation and the EBA final draft regulatory
+technical standards on the IRB assessment methodology EBA/RTS/2016/03 [RTS on IRB
+assessment methodology] of 21 July 2016.
+2.2 Scope of application
+6. These guidelines apply in relation to the IRB Approach in accordance with Part Three, Title II,
+Chapter 3 of Regulation (EU) No 575/2013 for all methods based on own estimates of PD and
+LGD. Where, for exposures other than retail, an institution has received permission to use the
+IRB Approach but has not received permission to use own estimates of LGD in accordance
+with Article 143(2) in conjunction with Article 151(8) to (9) of that Regulation, all parts of
+these guidelines apply, except Chapters 6 and 7. These guidelines do not apply to the
+calculation of own funds requirements for dilution risk in accordance with Article 157 of
+Regulation (EU) No 575/2013.
+2.3 Addressees
+7. These guidelines are addressed to competent authorities as defined in point (i) of Article 4(2)
+of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of
+Regulation (EU) No 1093/2010.
+2.4 Definitions
+8. Unless otherwise specified, terms used and defined in Regulation (EU) No 575/2013 and
+Directive 2013/36/EU have the same meaning in these guidelines. In addition, for the
+purposes of these guidelines, the following definitions apply:
+Risk parameters: One or all of the following: PD, LGD, ELBE and LGD in-default.
+Reference data set (RDS): All the datasets used for the purpose of estimation of risk.
+parameters, including the datasets relevant for model development as well as the datasets used for calibration of a risk parameter.
+PD model: All data and methods used as part of a rating system within the meaning of Article 142(1) point (1) of Regulation (EU) No 575/2013, which relate to the differentiation and quantification
+of own estimates of PD and which are used to assess the default risk for each obligor or exposure covered by that model.
+Ranking method of a PD model: The method, forming part of a PD model, used to rank the obligors or exposures with respect to the risk of a default.
+Scoring method of a PD model: A ranking method of a PD model which assigns ordinal values (’scores’) to rank obligors or exposures.
+LGD model: All data and methods used as part of a rating system within the meaning of Article 142(1) point (1) of Regulation (EU) No 575/2013, which relate to the differentiation and quantification
+of own estimates of LGD, LGD in-default and ELBE and which are used to assess the level of loss in the case of default for each facility covered by that model.
+ELBE: Expected loss best estimate for defaulted exposures as referred to in Article 181(1)(h) of Regulation (EU) No 575/2013.
+LGD in-default: Loss given default for defaulted exposures as referred to in Article 181(1)(h) of Regulation (EU) No 575/2013.
+Scope of application of a PD or LGD model: The type of exposures in the meaning of point (2) of Article 142(1) of Regulation (EU) No 575/2013 covered by a PD model or an LGD model.
+Estimation of risk parameters: The full modelling process related to the risk parameters including the selection and preparation of data, model development and calibration.
+Model development: The part of the process of the estimation of risk parameters that leads to an appropriate risk differentiation by specifying relevant risk drivers, building statistical or mechanical methods
+to assign exposures to obligor or facility grades or pools, and estimating intermediate parameters of the model, where relevant.
+PD calibration sample: The data set on which the ranking or pooling method is applied in order to perform the calibration.
+Calibration segment: A uniquely identified subset of the scope of application of the PD or LGD model which is jointly calibrated. 
+PD calibration: The part of the process of the estimation of risk parameters which leads to appropriate risk quantification by ensuring that when the PD ranking or pooling method is applied to a calibration sample, the resulting PD estimates correspond to
+the long-run average default rate at the level relevant for the applied method.
+LGD calibration: The part of the process of the estimation of risk parameters which leads to appropriate risk quantification by ensuring that the LGD estimates correspond to the long-run average LGD, or
+to the downturn LGD estimate where this is more conservative, at the level relevant for the applied method.
+Application of risk parameters: The assignment of risk parameters estimated in accordance with the PD or LGD model to the current exposures, performed either automatically with the use of a relevant IT system or
+manually by qualified personnel of an institution.
+Application portfolio: The actual portfolio of exposures within the scope of application of the PD or LGD model at the time of the estimation of a risk parameter.
+
+3 Implementation
+3.1 Date of application
+9. These guidelines apply from 1 January 2021. Institutions should incorporate the requirements
+of these guidelines in their rating systems by that time, but competent authorities may
+accelerate the timeline of this transition at their discretion.
+3.2 First application of the Guidelines
+10. The internal validation function should verify the changes which are applied to the rating
+systems as a result of the application of these guidelines and the regulatory technical
+standards to be developed in accordance with Article 144(2) of Regulation (EU) No 575/2013,
+and the classification of the changes in accordance with Commission Delegated Regulation
+(EU) No 529/2014.
+11. Institutions that need to obtain prior permission from competent authorities in accordance
+with Article 143(3) of Regulation (EU) No 575/2013 and Regulation (EU) No 529/2014 for the
+changes in the rating systems required to incorporate these guidelines for the first time by
+the deadline referred to in paragraph 9 should agree with their competent authorities the
+final deadline for submitting the application for such prior permission.
+
+4 General estimation requirements
+4.1 Principles for specifying the range of application of the rating systems
+12. A rating system in the sense of point (1) of Article 142(1) of Regulation (EU) No 575/2013
+should cover all those exposures where the obligors or facilities show common drivers of risk
+and credit-worthiness and fundamentally comparable availability of credit-related
+information. The PD and LGD model within a rating system may comprise various calibration
+segments. Where all obligors or exposures within the range of application of the PD or LGD
+model are jointly calibrated the whole scope of application of the model is considered one
+calibration segment.
+13. Exposures covered by the same rating system should be treated similarly by the institution in
+terms of risk management, decision making and credit approval process and should be
+assigned to a common obligor rating scale for the purposes of Article 170(1)(b) of Regulation
+(EU) No 575/2013 and a common facility rating scale for the purposes of Article 170(1)(e) of
+that Regulation.
+14. For the purpose of quantification of various risk parameters within a rating system,
+institutions should apply the same definition of default for the same historical observations
+used in different models. Institutions should also apply the same treatment of multiple
+defaults of the same obligor or exposure across internal, external and pooled data sources.
+4.2 Data requirements
+4.2.1 Quality of data
+15. In order to comply with the requirement of Article 76 of the RTS on IRB assessment
+methodology that institutions should have sound policies, processes and methods for
+assessing and improving the quality of data used for the purpose of credit risk measurement
+and management processes, institutions should ensure that those policies apply to all data
+used in model development and calibration, as well as to the data used in the application of
+the risk parameters.
+16. In order for the data used in the model development and in the application of risk parameters
+as inputs into the model to meet the requirements of accuracy, completeness and
+appropriateness specified in Article 174(b) of Regulation (EU) No 575/2013, it should be
+sufficiently precise to avoid material distortions of the outcome of the assignment of
+exposures to obligors or facility grades or pools, and it should not contain any biases which
+make the data unfit for purpose.
+4.2.2 Governance for data representativeness
+17. In order to comply with the requirement of the representativeness of data used in the PD and
+LGD models specified in Articles 174(c), 179(1)(d) and 179(2)(b) of Regulation (EU) No
+575/2013 as well as in Articles 40 and 45 of the RTS on IRB assessment methodology,
+institutions should have sound policies, processes and methods for assessing the
+representativeness of data used for the purpose of estimation of risk parameters. Institutions
+should specify in their internal policies the statistical tests and metrics to be used for the
+purpose of assessing the representativeness of data used for risk differentiation and,
+separately, for data underlying the risk quantification. Institutions should also specify
+methods for qualitative assessment of data for the cases, defined in their policies, where the
+application of statistical tests is not possible.
+18. Institutions should use the same standards and methods for the assessment of
+representativeness of data stemming from different sources, including internal, external and
+pooled data or a combination of these, unless different methods are justified by the
+specificity of the data source or availability of information.
+19. Where external or pooled data are used institutions should obtain sufficient information from
+the data providers to assess the representativeness of such external or pooled data to the
+institutions’ own portfolios and processes.
+4.2.3 Representativeness of data for model development
+20. Institutions should analyse the representativeness of data in the case of statistical models and
+other mechanical methods used to assign exposures to grades or pools, as well as in the case
+of statistical default prediction models generating default probability estimates for individual
+obligors or facilities. Institutions should select an appropriate dataset for the purpose of
+model development to ensure that the performance of the model on the application
+portfolio, in particular its discriminatory power, is not significantly hindered by insufficient
+representativeness of data.
+21. For the purposes of ensuring that the data used in developing the model for assigning obligors
+or exposures to grades or pools is representative of the application portfolio covered by the
+relevant model, as required in Article 174(c) of Regulation (EU) No 575/2013 and Article 40(2)
+of the RTS on IRB assessment methodology institutions should analyse the representativeness
+of the data at the stage of model development in terms of all of the following:
+(a) the scope of application;
+(b) the definition of default;
+(c) the distribution of the relevant risk characteristics;
+(d) lending standards and recovery policies.
+
+22. For the purpose of paragraph 21(a) institutions should analyse the segmentation of exposures
+and consider whether there were any changes to the scope of application of the considered
+model over the period covered by the data used in developing the model for assigning
+obligors or exposures to grades or pools. Where such changes were observed institutions
+should analyse the risk drivers relevant for the change of the scope of application of the
+model by comparing their distribution in the RDS before and after the change as well as with
+the distribution of those risk drivers in the application portfolio. For this purpose institutions
+should apply statistical methodologies such as cluster analysis or similar techniques to
+demonstrate representativeness. In the case of pooled models the analysis should be
+performed with regard to the part of the scope of the model that is used by an institution.
+23. For the purpose of paragraph 21(b) institutions should ensure that the definition of default
+underlying the data used for model development is consistent over time and, in particular,
+that it is consistent with all of the following:
+(a) that adjustments have been made to achieve consistency with the current default
+definition where the default definition has been changed during the observation period;
+(b) that adequate measures have been adopted by the institution, where the model covers
+exposures in several jurisdictions having or having had different default definitions;
+(c) that the definition of default in each data source has been analysed separately;
+(d) that the definition of default used for the purposes of model development does not have
+a negative impact on the structure and performance of the rating model, in terms of risk
+differentiation and predictive power, where this definition is different from the definition
+of default used by the institution in accordance with Article 178 of Regulation (EU) No
+575/2013.
+24. For the purpose of paragraph 21(c) institutions should analyse the distribution and range of
+values of key risk characteristics of the data used in developing the model for risk
+differentiation in comparison with the application portfolio. With regard to LGD models,
+institutions should perform such analysis separately for non-defaulted and defaulted
+exposures.
+25. Institutions should analyse the representativeness of the data in terms of the structure of the
+portfolio by relevant risk characteristics based on statistical tests specified in their policies to
+ensure that the range of values observed on these risk characteristics in the application
+portfolio is adequately reflected in the development sample. Where the application of
+statistical tests is not possible, institutions should carry out at least a qualitative analysis on
+the basis of the descriptive statistics of the structure of the portfolio, taking into account the
+possible seasoning effects referred to in Article 180(2)(f) of Regulation (EU) No 575/2013.
+When considering the results of this analysis, institutions should take into account the
+sensitivity of the risk characteristics to economic conditions. Material differences in the key
+risk characteristics between the data sample and the application portfolio should be 
+addressed, for example by using another data sample or a subset of observations or by
+adequately reflecting these risk characteristics as risk drivers in the model.
+26. For the purpose of paragraph 21(d) institutions should analyse whether, over the relevant
+historical observation period, there were significant changes in their lending standards or
+recovery policies or in the relevant legal environment, including changes in insolvency law,
+legal foreclosure procedures and any legal regulations related to realisation of collaterals,
+which may influence the level of risk or the distribution or ranges of the risk characteristics in
+the portfolio covered by the considered model. Where institutions observe such changes they
+should compare the data included in the RDS before and after the change of the policy.
+Institutions should ensure comparability of the current underwriting or recovery standards
+with those applied to the observations included in the RDS and used for model development.
+27. Within the PD model the representativeness of data used in developing the model for risk
+differentiation does not require that the proportion of defaulted and non-defaulted
+exposures in this dataset be equal to the proportion of defaulted and non-defaulted
+exposures in the institution’s application portfolio. However, institutions should have a
+sufficient number of defaulted and non-defaulted observations in the development dataset
+and they should document the difference.
+4.2.4 Representativeness of data for calibration of risk parameters
+28. In order for institutions to ensure that the data used in risk quantification is representative of
+the application portfolio covered by the relevant model in accordance with Sub-section 2 of
+Section 6 of Chapter 3 in Part Three of Regulation (EU) No 575/2031 and Article 45(2) of the
+RTS on IRB assessment methodology, institutions should analyse the comparability of the data
+used for the purpose of calculating long-run average default rates or long-run average LGDs
+as referred to in Article 179(1)(d) of Regulation (EU) No 575/2013 and, where relevant, the
+representativeness of the pool in accordance with Article 179(2)(b) of that Regulation, in
+terms of all of the following:
+(a) the scope of application;
+(b) the definition of default;
+(c) the distribution of the relevant risk characteristics;
+(d) the current and foreseeable economic or market conditions;
+(e) lending standards and recovery policies.
+29. For the purpose of paragraph 28(a) institutions should perform an analysis as specified in
+paragraph 22.
+30. For the purpose of paragraph 28(b) and in order to ensure that the definition of default
+underlying the data used for risk quantification from each data source is consistent with the
+requirements of Article 178 of Regulation (EU) No 575/2013, institutions should compare the 
+definition of default applied by the institution currently with the definitions used for the
+observations included in the dataset used for risk quantification. Where the definition of
+default has changed during the historical observation period institutions should assess the
+representativeness of historical data included in the RDS and used for risk quantification in
+the same way as specified for external data in Chapter 6 of the EBA Guidelines on the
+application of the definition of default under Article 178 of Regulation (EU) No 575/2013.
+Where the definition of default has changed during the historical observation period more
+than once, institutions should perform the analysis of each of the past definitions of default
+separately.
+31. For the purpose of paragraph 28(c) institutions should perform an appropriate analysis to
+ensure that at the level of the calibration segment the ranges of values of the key risk
+characteristics in the application portfolio are comparable to those in the portfolio
+constituting the reference data set for risk quantification to the degree required to ensure
+that the risk quantification is not biased.
+32. For the purpose of paragraph 28(d) institutions should perform the analysis of the market and
+economic conditions underlying the data in the following manner:
+(a) with regard to the PD estimation, in accordance with section 5.3.4;
+(b) with regard to the LGD estimation, in accordance with section 6.3.2 and taking into
+account the consideration of economic downturn as required by Article 181(1)(b) of
+Regulation (EU) No 575/2013.
+33. For the purpose of paragraph 28(e) institutions should analyse whether there were significant
+changes in the lending standards or recovery policies over the relevant historical observation
+period that may influence the level of risk or the distribution or ranges of the characteristics
+of relevant risk drivers in the portfolio covered by the considered model. Where institutions
+observe such changes they should analyse the potential bias in the estimates of risk
+parameters resulting from these changes in the following manner:
+(c) with regard to the PD estimation, in terms of the level of default rates and the likely range
+of variability of default rates;
+(d) with regard to the LGD estimation, in terms of loss rates, average duration of the
+recovery processes, frequencies of use of certain recovery scenarios and the loss severity
+distributions.
+34. Where the representativeness of data assessed in accordance with paragraphs 28 to 33 is
+insufficient and leads to a bias or increased uncertainty of risk quantification, institutions
+should introduce an appropriate adjustment to correct the bias and they should apply a
+margin of conservatism in accordance with section 4.4.
+4.3 Human judgement in estimation of risk parameters
+35. In order for institutions to complement their statistical models with human judgement, as
+referred to in Articles 174(b), 174(e), 175(4), 179(1)(a) and 180(1)(d) of Regulation (EU) No
+575/2013, they should do all of the following:
+(a) assess the modelling assumptions and whether the selected risk drivers contribute to the
+risk assessment in line with their economic meaning;
+(b) analyse the impact of the human judgement on the performance of the model and ensure
+that any form of human judgement is properly justified;
+(c) document the application of human judgement in the model, including at least the
+criteria for the assessment, rationale, assumptions, experts involved and description of
+the process.
+4.4 Treatment of deficiencies and margin of conservatism
+4.4.1 Identification of deficiencies
+36. Institutions should identify all deficiencies related to the estimation of risk parameters that
+lead to a bias in the quantification of those parameters or to an increased uncertainty that is
+not fully captured by the general estimation error, and classify each deficiency into one of the
+following categories:
+(a) Category A: Identified data and methodological deficiencies;
+(b) Category B: Relevant changes to underwriting standards, risk appetite, collection and
+recovery policies and any other source of additional uncertainty.
+37. For the purposes of identifying and classifying all deficiencies referred to in paragraph 36
+institutions should take into account all relevant deficiencies in methods, processes, controls,
+data or IT systems that have been identified by the credit risk control unit, validation function,
+internal audit function or any other internal or external review and should analyse at least all
+of the following potential sources of additional uncertainty in risk quantification:
+(a) under category A:
+(i) missing or materially changed default triggers in historical observations, including
+changed criteria for recognition of materially past due credit obligations;
+(ii) missing or inaccurate date of default;
+(iii) missing, inaccurate or outdated rating assignment used for assessing historical grades
+or pools for the purpose of calculation of default rates or average realised LGDs per
+grade or pool; 
+(iv) missing or inaccurate information on the source of cash flows;
+(v) missing, inaccurate or outdated data on risk drivers and rating criteria;
+(vi) missing or inaccurate information used for the estimation of future recoveries as
+referred to in paragraph 159;
+(vii)missing or inaccurate data for the calculation of economic loss;
+(viii) limited representativeness of the historical observations due to the use of
+external data;
+(ix) potential bias stemming from the choice of the approach to calculating the average of
+observed one year default rates in accordance with paragraph 80;
+(x) necessity of adjusting the average of observed one-year default rates in accordance
+with paragraph 86;
+(xi) missing information for the purpose of estimating loss rates or for the purpose of
+reflecting economic downturn in LGD estimates;
+(b) under category B:
+(i) changes to underwriting standards, collection or recovery policies, risk appetite or
+other relevant internal processes;
+(ii) unjustified deviations in the ranges of values of the key risk characteristics of the
+application portfolio compared with those of the dataset used for risk quantification;
+(iii) changes to market or legal environment;
+(iv) forward-looking expectations regarding potential changes in the structure of the
+portfolio or the level of risk, especially based on actions or decisions that have already
+been taken but which are not reflected in the observed data.
+4.4.2 Appropriate adjustment
+38. In order to overcome biases in risk parameter estimates stemming from the identified
+deficiencies referred to in paragraphs 36 and 37, institutions should apply adequate
+methodologies to correct the identified deficiencies to the extent possible. The impact of
+these methodologies on the risk parameter (‘appropriate adjustment’), which should result in
+a more accurate estimate of the risk parameter (‘best estimate’), represents either an
+increase or a decrease in the value of the risk parameter. Institutions should ensure and
+provide evidence that the application of an appropriate adjustment results in a best estimate.
+39. Institutions should document the methods used to apply appropriate adjustments to rectify
+the identified deficiencies, where relevant, as well as their justification. 
+40. Institutions should regularly monitor the adequacy of appropriate adjustments. The adoption
+of an appropriate adjustment by institutions should not replace the need to address the
+identified deficiencies.
+4.4.3 Margin of conservatism
+41. In relation to the requirement that institutions should add a margin of conservatism (‘MoC’)
+that is related to the expected range of estimation errors as required by Articles 179(1)(f) and
+180(1)(e) of Regulation (EU) No 575/2013, institutions should implement a framework for
+quantification, documentation and monitoring of estimation errors.
+42. The final MoC on a risk parameter estimate should reflect the uncertainty of the estimation in
+all of the following categories:
+Category A: MoC related to data and methodological deficiencies identified under category
+A as referred to in paragraph 36(a);
+Category B: MoC related to relevant changes to underwriting standards, risk appetite,
+collection and recovery policies and any other source of additional uncertainty identified
+under category B as referred to in paragraph 36(b);
+Category C: the general estimation error.
+43. In order to quantify MoC institutions should do all of the following:
+(a) quantify MoC for the identified deficiencies referred to in paragraphs 36 and 37, to
+the extent not covered by the general estimation error, at least for each of the
+categories A and B at the level of the calibration segment ensuring that:
+(i) where appropriate adjustments in the sense of paragraph 38 are used, the MoC
+accounts for any increase in the uncertainty or additional estimation error
+associated with these adjustments;
+(ii) the MoC at category level related to the appropriate adjustments is proportionate
+to the uncertainty around these adjustments;
+(iii) the MoC is applied to address the uncertainty of the risk parameter estimate
+stemming from any deficiencies among those referred to in paragraphs 36 and 37
+that have not been corrected via appropriate adjustments as referred to in point
+(i);
+(b) quantify the general estimation error of category C referred to in paragraph 42
+associated with the underlying estimation method at least for every calibration
+segment; the MoC for the general estimation error should reflect the dispersion of
+the distribution of the statistical estimator.
+44. For the purpose of paragraph 43(a) and for each of the categories A and B, institutions may
+group all or selected deficiencies, where justified, for the purpose of quantifying MoC.
+45. Institutions should quantify the final MoC as the sum of:
+(a) the MoC under category A as referred to in paragraph 43(a);
+(b) the MoC under category B as referred to in paragraph 43(a);
+(c) the MoC for the general estimation error (category C) as referred to in paragraph
+43(b).
+46. Institutions should add the final MoC to the best estimate of the risk parameter.
+47. Institutions should ensure that the impact of the final MoC does not result in lowering the risk
+parameter estimates and in particular that:
+(a) the MoC stemming from the general estimation error is greater than zero;
+(b) the MoC stemming from each of the categories A and B is proportionate to the
+increased uncertainty in the best estimate of risk parameters caused by the identified
+deficiencies listed in each category. In any case, the MoC under each of the categories
+A and B should be greater than or equal to zero.
+48. Institutions should consider the overall impact of the identified deficiencies and the resulting
+final MoC on the soundness of the model and ensure that the estimates of the risk
+parameters and the resulting own funds requirements are not distorted by the necessity for
+excessive adjustments.
+49. For each rating system, the MoC applied should be documented in the relevant model
+documentation and methodology manuals. The documentation should contain at least the
+following:
+(a) a complete list of all identified deficiencies, including errors and uncertainties, and the
+potentially affected model components or risk parameters;
+(b) the category under which these deficiencies are classified, as referred to in paragraph 42;
+(c) a description of the methods for quantification of the MoC related to identified
+deficiencies as referred to in paragraph 43(a) and in particular the methodologies used to
+quantify the MoC per category.
+50. Institutions should regularly monitor the levels of the MoC. The adoption of a MoC by
+institutions should not replace the need to address the causes of errors or uncertainties, or to
+correct the models to ensure their full compliance with the requirements of Regulation (EU)
+No 575/2013. Following an assessment of the deficiencies or the sources of uncertainty, 
+institutions should develop a plan to rectify the data and methodological deficiencies as well
+as any other potential source of additional uncertainty and reduce the estimation errors
+within a reasonable timeframe, taking into consideration the materiality of the estimation
+error and the materiality of the rating system.
+51. When reviewing the levels of the MoC institutions should ensure all of the following:
+(a) that the MoC stemming from categories A and B referred to in paragraphs 36 and 37 is
+included in internal reporting separately for each category and may be reduced over time
+and eventually eliminated once the deficiencies are rectified in all parts of the rating
+system that were affected;
+(b) that the MoC stemming from the general estimation error referred to in paragraph 43(b)
+is included in internal reporting in a separate category (’C’);
+(c) that the level of the MoC is assessed as part of the regular reviews referred to in Chapter
+9 and in particular that the level of MoC related to the general estimation error remains
+appropriate after the inclusion of the most recent data relevant for the risk parameter
+estimation.
+52. Institutions should ensure that necessary changes in the MoC are implemented in a timely
+manner. 
+5 PD estimation
+5.1 General requirements specific to PD estimation
+53. For the purpose of assigning obligors to an obligor grade as part of the credit approval process
+in accordance with Article 172(1)(a) of Regulation (EU) No 575/2013 as well as for the
+purpose of the review of those assignments, in accordance with Article 173(1)(b) of that
+Regulation, institutions should ensure that each and every natural or legal person towards
+whom an IRB exposure exists is rated by the institution with the model approved to be used
+on a given type of exposures. This model should fit the single original obligor within the
+applicable rating system, including exposures secured by unfunded credit protection as
+referred to in Article 161(3) of that Regulation.
+54. For the purpose of assigning retail exposures to a grade or pool as part of the credit approval
+process in accordance with Article 172(2) of Regulation (EU) No 575/2013 as well as for the
+purpose of the review of those assignments in accordance with Article 173(2) of that
+Regulation, institutions should ensure that each and every IRB exposure is rated by the
+institution with the model approved to be used on a given type of exposures. This model
+should fit the single original obligor or exposure within the applicable rating system, including
+exposures secured by unfunded credit protection as referred to in Article 164(2) of that
+Regulation.
+55. A PD model can contain several different methods for ranking the obligors or exposures as
+well as various calibration segments.
+5.2 Model development in PD estimation
+5.2.1 Data requirements specific for model development
+56. For the purpose of model development, institutions should ensure that the RDS contains the
+values of the risk drivers for appropriate points in time. These points in time may vary
+between different risk drivers. In the selection of appropriate points in time institutions
+should take into account the dynamics as well as the update frequency of the risk drivers
+throughout the whole period in which an obligor was in the portfolio and, in the case of a
+default, throughout the year prior to default.
+5.2.2 Risk drivers and rating criteria
+57. In the process of selecting risk drivers and rating criteria, institutions should consider a broad
+set of information relevant to the type of exposures covered by the rating system. Potential
+risk drivers analysed by institutions should include in particular the following:
+(a) obligor characteristics, including sector and geographic location for corporates;
+(b) financial information, including financial statements or income statements;
+(c) trend information, including growing or shrinking sales or profit margin;
+(d) behavioural information, including delinquency and the use of credit facilities.
+58. Institutions should ensure that for the purpose of selecting risk drivers and rating criteria the
+relevant experts from business areas of the institution are consulted with respect to the
+business rationale and risk contribution of the considered risk drivers and rating criteria.
+59. Institutions should ensure that the decrease of reliability of information over time, for
+instance of information on obligor characteristics obtained at the time of the loan origination,
+is appropriately reflected in the PD estimation. Institutions should also ensure that the model
+estimates the proper level of risk with respect to all relevant, currently available and most up-to-date information and that an adequate MoC is applied where a higher degree of
+uncertainty exists due to the lack of up-to-date information. In particular the model or the
+assignment process should provide for an adequate and conservative adjustment in both of
+the following situations:
+(a) in accordance with Article 24(1)(g) of the RTS on IRB assessment methodology, in case of
+financial statements older than 24 months where information stemming from these
+financial statements is a relevant risk driver;
+(b) in the case of credit bureau information that is older than 24 months, if still relevant at
+that point in time, where credit bureau information is a relevant risk driver.
+60. Institutions should use the risk drivers and rating criteria consistently, in particular with
+respect to the considered time horizon, in model development, model calibration and model
+application.
+61. Where there is a significant proportion of customers using multiple facilities of the same type
+within a considered retail rating system institutions should analyse the level of risk of such
+customers compared with customers carrying only one facility of the relevant type and,
+where necessary, reflect the difference in the level of risk in the model through appropriate
+risk drivers.
+5.2.3 Treatment of ratings of third parties
+62. Institutions should have clear policies specifying the conditions under which the rating of a
+third party who has a contractual or organisational relation with an obligor of the institution
+may be taken into account in the assessment of risk of the considered obligor. Such policies
+should take into account the following possible manners in which the rating of such a third
+party may be taken into account in the assessment of risk of the considered obligor: 
+(a) the rating of such third party being transferred to a relevant obligor (‘rating transfer’),
+where there is no difference in risk between the obligor and the related party because of
+the existence of an appropriate guarantee and the rating of a third party is assigned
+internally in accordance with the rating system for which the institution has received
+permission in accordance with Article 143(2) of Regulation (EU) No 575/2013;
+(b) the rating of a such third party being taken into account as an indication for an override of
+the assignment of the relevant obligor to a grade or pool;
+(c) the rating of such a third party serving as an input to the PD model, reflecting contractual
+support of the related party for the obligor.
+63. In order for an internal or external ratings of a third party to be incorporated into a PD model,
+institutions should ensure all of the following:
+(a) that the rating of a third party fulfils all the requirements for relevant risk drivers set out
+in section 5.2.2;
+(b) that other relevant obligor and transaction risk characteristics are properly reflected in
+the model in accordance with Articles 170(1)(a) and 170(3)(a) of Regulation (EU) No
+575/2013, and that no material biases are introduced by a high weighting of the internal
+or external rating information;
+(c) that there is no double counting of effects of any relations to third parties.
+64. A rating transfer should not change the assignment of exposures to exposure classes, rating
+systems or models, but should only affect the assignment to grades or pools. Rating transfers
+should be set up in such a way that any changes to a rating of a third party which is material
+information on the obligor or exposure with regard to Article 173(1)(b) of Regulation (EU) No
+575/2013 is reflected in all influenced ratings in a timely manner.
+65. The material contractual support granted by an obligor to a third party should be seen as
+diminishing the free financial strength of the supporting obligor, including the strength to
+repay all obligations to the institution in full. This should be reflected in the rating of the
+supporting obligor.
+5.2.4 Rating philosophy
+66. Institutions should choose an appropriate philosophy underlying the assignment of obligors
+or exposures to grades or pools (‘rating philosophy’) taking into account all of the following
+principles:
+(a) Institutions should assess whether the method used to quantify the risk parameter is
+adequate for the rating philosophy and understand the characteristics and dynamics of
+the assignment of obligors or exposures to grades or pools (‘rating assignment’) and of
+the risk parameter estimates that result from the method used.
+(b) Institutions should assess the adequacy of the resulting characteristics and dynamics of
+the rating assignment and risk parameter estimates that result from the method used,
+with regard to their various uses and should understand their impact on the dynamics and
+volatility of own funds requirements.
+(c) The rating philosophy should also be taken into account for back testing purposes.
+Philosophies sensitive to economic conditions tend to estimate PDs that are better
+predictors of each year’s default rates. On the other hand, philosophies less sensitive to
+economic conditions tend to estimate PDs that are closer to the average PD across the
+various states of the economy, but that differ from observed default rates in years where
+the state of the economy is above or below its average. Deviations between observed
+default rates and the long-run average default rate of the relevant grade will hence be
+more likely in rating systems less sensitive to economic conditions. In contrast, migrations
+among grades will be more likely in rating systems which are more sensitive to economic
+conditions. These patterns should be taken into account when assessing the results of
+back-testing and, where relevant, benchmarking analysis.
+67. Institutions should apply the chosen rating philosophy consistently over time. Institutions
+should analyse the appropriateness of the philosophy underlying the assignment of obligors
+or exposures to grades or pools (‘rating philosophy’), taking into account all of the following:
+(a) design of risk drivers;
+(b) migration across grades or pools;
+(c) changes in the yearly default rates of each grade or pool.
+68. Where institutions use different rating systems characterised by different rating philosophies,
+they should use the information on the rating assignments or risk parameters estimates with
+caution, especially when making use of rating information or default experience obtained
+from external rating agencies. Where institutions use different rating systems with different
+characteristics, such as different philosophies or different levels of objectivity, accuracy,
+stability, or conservatism, they should ensure that the rating systems have an appropriate
+level of consistency and that any differences between them are well understood. Such
+understanding should at least enable the institution to define an appropriate way to combine
+or aggregate the information produced by the various rating systems when this is necessary
+according to the institution’s policies. Institutions should have full understanding of the
+assumptions and potential inaccuracies arising from such a combination or aggregation.
+5.2.5 Homogeneity of obligor grades or pools
+69. In order to comply with the requirements of Article 170(1) and 170(3)(c) of Regulation (EU)
+No 575/2013 and of Article 38 of the RTS on IRB assessment methodology, institutions should
+check the homogeneity of obligors or exposures assigned to the same grades or pools. In
+particular, grades should be defined in such a manner that each obligor within each grade or 
+pool has a reasonably similar risk of default and that significant overlaps of the distributions
+of the default risk between grades or pools are avoided.
+5.3 PD calibration
+5.3.1 Data requirements for the calculation of observed default rates
+70. For the purpose of calculating the one-year default rate defined in point (78) of Article 4(1) of
+Regulation (EU) No 575/2013, institutions should ensure the completeness of the quantitative
+and qualitative data and other information in relation to the denominator and numerator as
+outlined in paragraphs 73 and 74 and used for the calculation of the observed average default
+rate. In particular, institutions should ensure that at least the following data for the relevant
+observation period referred to in paragraphs 82 to 83 is properly stored and available:
+(a) the criteria for identifying the relevant type of exposures covered by the PD model under
+consideration;
+(b) the criteria for identifying the calibration segments;
+(c) the risk drivers used for risk differentiation; where a newly relevant risk driver has been
+included in the model for which no historical data is available institutions should, make
+efforts to minimise missing data on risk drivers over time as outlined in paragraph 51(a),
+and apply an appropriate adjustment and a MoC in accordance with section 4.4;
+(d) all identification numbers of obligors and exposures relevant for default rate calculation,
+taking into account situations where the identification number has changed over time,
+including changes due to restructuring of exposures.
+71. Exclusion of observations from the one-year default rate calculation should be undertaken
+only in the following two situations:
+(a) obligors wrongly included in the data set of defaults, as they did not default in the
+meaning of the definition of default pursuant to Article 178 of Regulation (EU) No
+575/2013 as further specified in the Guidelines on the application of the definition of
+default of an obligor under that Article should not be included in the numerator of the
+one-year default rate;
+(b) obligors wrongly assigned to the considered rating model, despite not falling in the range
+of application of that rating model, should be excluded from both the numerator and the
+denominator of the one-year default rate.
+72. Institutions should document all data cleansing in accordance with Article 32(3)(b) of the RTS
+on IRB assessment methodology, with respect to the one-year default rate calculation and in
+particular:
+(a) for non-retail PD models, a list of all observations within the dataset that were excluded
+according to paragraph 71, with a case-by-case justification;
+(b) for retail PD models, information on the reasons and quantity of exclusions of
+observations made in accordance with paragraph 71.
+5.3.2 Calculation of one-year default rates
+73. For the purpose of calculating the one-year default rate referred to in point (78) of Article 4(1)
+of Regulation (EU) No 575/2013, institutions should ensure both of the following:
+(a) that the denominator consists of the number of non-defaulted obligors with any credit
+obligation observed at the beginning of the one-year observation period; in this context a
+credit obligation refers to both of the following:
+(i) any on balance sheet item, including any amount of principal, interest and fees;
+(ii) any off-balance sheet items, including guarantees issued by the institution as a
+guarantor.
+(b) that the numerator includes all those obligors considered in the denominator that had at
+least one default event during the one-year observation period.
+74. When assigning the obligors or exposures to grades or pools for the purpose of the one-year
+default rate calculation, institutions should take overrides into account, but they should not
+reflect in this assignment any substitution effects due to credit risk mitigation, nor any ex post
+conservative adjustments introduced in accordance with section 8.1. Where the one-year
+default rate is calculated by rating grade or pool, the denominator should refer to all obligors
+assigned to a rating grade or pool at the beginning of the observation period. Where the one year default rate is calculated at the portfolio level, the denominator should refer to all
+obligors assigned to the relevant calibration segment at the beginning of the observation
+period.
+75. Institutions should calculate the one-year default rate also for the subset of obligors with any
+credit obligation that did not have a rating at the start of the relevant observation period, but
+which were within the range of application of the model under consideration (‘missing
+ratings’), even if these obligors were assigned to a rating grade or pool in a conservative
+manner for the purpose of calculation of own funds requirements. Obligors whose ratings are
+based on missing or partly missing information or where the rating is outdated but still
+deemed valid by the institution should not be considered as missing ratings.
+76. For the purposes of paragraphs 73 to 75 an obligor has to be included in the denominator
+and, where relevant, numerator, also in the case of a migration to a different rating grade,
+pool or rating model, rating system or approach to calculation of capital requirements within
+the observation period or where the corresponding credit obligations were sold, written off, 
+repaid or otherwise closed during the observation period. Institutions should analyse whether
+such migrations or sales of credit obligations bias the default rate and, if so, they should
+reflect this in an appropriate adjustment and consider an adequate MoC.
+77. In any case institutions should ensure that each defaulted obligor is counted only once in the
+numerator and denominator of the one-year default rate calculation, even where the obligor
+defaulted more than once during the relevant one-year period.
+78. In order to choose an appropriate calculation approach as required by paragraph 80,
+institutions should evaluate the observed one year default rates within the historical
+observation period at least quarterly.
+5.3.3 Calculation of the observed average default rate
+79. The observed average of one-year default rates (‘observed average default rate’) should be
+calculated for each rating grade or pool and additionally for the type of exposures covered by
+the relevant PD model as well as for any relevant calibration segment.
+80. Institutions should choose an appropriate approach between an approach based on
+overlapping and an approach based on non-overlapping one-year time windows, to calculate
+the observed average default rate based on a documented analysis. This analysis should
+include at least the following:
+(a) an analysis of possible bias due to the proportion of short-term and terminated contracts
+that cannot be observed during the relevant one-year periods;
+(b) an analysis of possible bias due to the specific calculation dates chosen;
+(c) for institutions using overlapping one-year time windows, an analysis of potentially
+significant bias due to implicit over-weighting of the overlapping time period;
+(d) an analysis of potentially significant bias due to seasonal effect related to the chosen
+calculation dates.
+81. For the purposes of paragraphs 79 and 80 institutions should calculate the observed average
+default rates as the arithmetic average of all one year default rates calculated in accordance
+with paragraphs 73 to 76. In the case of PD models for retail exposure class institutions may
+calculate the observed average default rate as a weighted average of one-year default rates
+where an institution does not give equal importance to historic data because more recent
+data is a better predictor of losses in accordance with Article 180(2)(e) of Regulation (EU) No
+575/2013.
+5.3.4 Long-run average default rate
+82. For the purpose of determining the historical observation period referred to in Articles
+180(1)(h) and 180(2)(e) of Regulation (EU) No 575/2013, additional observations to the most
+recent 5 years, at the time of model calibration, should be considered relevant when these 
+observations are required in order for the historical observation period to reflect the likely
+range of variability of default rates of that type of exposures as referred to in Article 49(3) of
+the RTS on IRB assessment methodology.
+83. For the purpose of assessing the representativeness of the historical observation period
+referred to in paragraph 82 for the likely range of variability of one-year-default rates,
+institutions should assess whether the historical observation period contains a representative
+mix of good and bad years, and they should take into account all of the following:
+(a) the variability of all observed one-year-default rates;
+(b) the existence, lack or prevalence of one-year default rates relating to bad years as
+reflected by economic indicators that are relevant for the considered type of exposures
+within the historical observation period;
+(c) significant changes in the economic, legal or business environment within the historical
+observation period.
+84. Where the historical observation period referred to in paragraph 82 is representative of the
+likely range of variability of the default rates, the long-run average default rate should be
+computed as the observed average of the one-year default rates in that period.
+85. Where the historical observation period referred to in paragraph 82 is not representative of
+the likely range of variability of default rates as referred to in Article 49(4) of the RTS on IRB
+assessment methodology, institutions should apply the following:
+(a) where no or insufficient bad years are included in the historical observation period the
+average of observed one year default rates should be adjusted in order to estimate a
+long-run average default rate;
+(b) where bad years are over-represented in the historical observation period, the average
+of observed one-year default rates may be adjusted to estimate a long-run average
+default rate where there is a significant correlation between economic indicators
+referred to in paragraph 83(b) and the available one-year default rates.
+Institutions should ensure that, as a result of the adjustments referred to in points (a) and
+(b), the adjusted long-run average default rate reflects the likely range of variability of
+default rates.
+86. In the exceptional case where the long-run average default rate is below the average of all
+observed one-year default rates due to any adjustment made in accordance with paragraph
+85, institutions should compare their adjusted long-run average default rates with the higher
+of the following:
+(a) the observed average of the one-year default rates of the most recent 5 years;
+(b) the observed average of all available one-year default rates.
+Institutions should justify the direction and magnitude of the adjustment, including the
+adequacy of the considered MoC, in line with the requirement in Article 49(4)(b) of the RTS on
+IRB assessment methodology and section 4.4. In addition, where the adjusted long-run
+average default rate is lower than the higher of the two values referred to in points (a) and
+(b), they should specifically justify why these two values are not appropriate.
+5.3.5 Calibration to the long-run average default rate
+87. Institutions should have sound and well-defined processes in place which ensure sound
+calibration by including all of the following in their calibration process:
+(a) quantitative calibration tests by rating grade or pool;
+(b) quantitative calibration tests on calibration segment level;
+(c) supplementary qualitative analyses such as expert judgements on the shape of the
+resulting obligor distribution, minimum obligor numbers per grade and avoidance of
+undue concentration in certain grades or pools.
+88. Institutions should store and describe in the documentation of the PD model the calibration
+sample associated with each calibration segment. In order to ensure compliance with Article
+180(1)(a) or 180(2)(a) of Regulation (EU) No 575/2013, institutions should find an appropriate
+balance between the comparability of the calibration sample with the application portfolio in
+terms of obligor and transaction characteristics and its representativeness of the likely range
+of variability of default rates as referred to in section 5.3.4.
+89. Institutions should conduct the calibration after taking into account any overrides applied in
+the assignment of obligors to grades or pools, and before the application of MoC or floors to
+PD estimates as referred to in Articles 160(1) and 163(1) of Regulation (EU) No 575/2013.
+Where a ranking method or overrides policy has changed over time, institutions should
+analyse the effects of these changes on the frequency and scope of overrides and take them
+into account appropriately.
+90. The process of grouping ranked obligors or exposures to grades or pools, in particular where
+institutions conduct this grouping by identification of intervals of score values reflecting a
+predefined PD level assigned to a grade of a master scale, may be performed during the
+calibration.
+91. Taking into account the availability of data, the structure of the model and portfolio as well as
+the business requirements, institutions should choose an appropriate method to perform the
+calibration in accordance with the following principles:
+(a) institutions may choose one of the following types of calibration:
+(i) a calibration in accordance with Article 180(1)(a) or 180(2)(a) of Regulation (EU)
+No 575/2013;
+(ii) a calibration in accordance with Article 169(3) of Regulation (EU) No 575/2013 in
+combination with Article 180(1)(a) or 180(2)(a) of that Regulation if a continuous
+rating scale is used;
+(b) for exposures to corporates, institutions, central governments and central banks and for
+equity exposures where an institution uses the PD/LGD approach set out in Article 155(3)
+of Regulation (EU) No 575/2013, institutions may choose one of the following types of
+calibration:
+(i) a calibration based on a mapping to the rating scale used by an external credit
+assessment institution (ECAI) or similar organisation in accordance with Article
+180(1)(f) of Regulation (EU) No 575/2013;
+(ii) for a statistical default prediction model, in accordance with Section 4 of the RTS
+on IRB assessment methodology, where the PDs are estimated as simple averages
+of default probability estimates for individual obligors in a given grade or pool in
+accordance with Article 180(1)(g) of Regulation (EU) No 575/2013, a calibration at
+the level of appropriate calibration segments of the relevant default probability
+estimates;
+(c) for retail exposures institutions may choose a calibration based on total losses and LGDs
+in accordance with Articles 180(2)(b) and 180(2)(d) of Regulation (EU) No 575/2013;
+(d) for corporate purchased receivables institutions may choose a calibration based on
+expected losses and LGDs in accordance with Articles 180(1)(b) and 180(1)(c) of
+Regulation (EU) No 575/2013.
+92. For the purpose of determining the PD estimates referred to in paragraph 91, the calibration
+should consider either:
+(a) the long-run average default rate at the level of grade or pool, in which case institutions
+should provide additional calibration tests at the level of the relevant calibration
+segment; or
+(b) the long-run average default rate at the level of the calibration segment, in which case
+institutions should provide additional calibration tests at the level of the relevant grades
+or pools or, where they use direct PD estimates in accordance with Article 169(3) of
+Regulation (EU) No 575/2013, at a level that is appropriate for the application of the
+probability model.
+93. Irrespective of which of the approaches mentioned in paragraph 92 institutions choose, they
+should assess the potential effect of the chosen calibration method on the behaviour of PD
+estimates over time.
+94. For the purpose of determining PD estimates based on a mapping to an external rating scale
+as referred to in paragraph 91(b)((i)), institutions should base the default rates observed for
+the external organisation’s grades on a time series representative of the likely range of
+variability of default rates for the grades and pools of the given portfolio.
+95. Where institutions derive PD estimates from the estimates of losses and LGDs in accordance
+with Articles 161(2) and 180(2)(b) of Regulation (EU) No 575/2013 they should use a RDS that
+includes realised losses on all defaults identified during the historical observation period
+specified in accordance with section 6.3.2.1 and relevant drivers of loss.
+96. In order to use direct PD estimates for the calculation of own funds requirements in
+accordance with Article 169(3) of Regulation (EU) No 575/2013, institutions should
+demonstrate that the theoretical assumptions of the probability model underlying the
+estimation methodology are met to a sufficient extent in practice and that the long-run
+average default rate is retained. In particular, all data and representativeness requirements
+should be met, including those in Article 174(c) of Regulation (EU) No 575/2013, and the
+definition of default should be applied in accordance with Article 178 of Regulation (EU) No
+575/2013. Under no circumstances should the use of continuous PDs or any smoothening of
+default rates be adopted in order to overcome the lack of data, low discriminatory capacity or
+any other deficiencies in the rating assignment or PD estimation process, or to reduce the
+own funds requirements.
+97. Institutions may split exposures covered by the same PD model into as many different
+calibration segments as needed where one or more subsets of these exposures carry a
+significantly different level of risk. For this purpose institutions should use relevant
+segmentation drivers and they should justify and document the use and scope of the
+calibration segments.
+98. Where scoring methods are used, institutions should ensure that:
+(a) where there is a change in the scoring method used, the institutions consider whether it is
+necessary to recalculate scores of obligors or exposures based on the original dataset
+instead of using scores that were calculated based on previous versions of the scoring
+method, and, where such recalculation is not possible, that institutions assess potential
+effects and take those effects into account via an appropriate increase of the MoC to their
+PD estimates;
+(b) where Article 180(1)(g) of Regulation (EU) No 575/2013 applies, the PD estimates which
+were derived as a simple average of individual PD estimates are adequate for relevant
+grades, by applying calibration tests to these estimates at a grade level, on the basis of
+one-year default rates representative of the likely range of variability of default rates.
+99. The calibration should not influence the rank ordering of obligors or exposures within a
+calibration segment other than within each grade or pool.
+6 LGD estimation
+6.1 General requirements specific to LGD estimation
+6.1.1 LGD estimation methodologies
+100. Institutions that have obtained permission to use own estimates of LGD in accordance
+with Article 143(2) of Regulation (EU) No 575/2013 should assign an LGD estimate to each
+non-defaulted exposure and an estimate of LGD in-default and ELBE to each defaulted
+exposure within the range of application of the rating system subject to such permission in
+accordance with Articles 172 and 173 of Regulation (EU) No 575/2013. Institutions should
+estimate LGDs for all facility grades of the distinct facility rating scale or for all pools that are
+incorporated in the rating system. For the purpose of LGD estimation institutions should treat
+each defaulted facility as a distinct default observation, unless more than one independent
+defaults were recognised on a single facility which do not meet the conditions of paragraph
+101.
+101. For the purpose of LGD estimation, with regard to defaults recognised on a single facility,
+where the time between the moment of the return of the exposure to non-defaulted status
+and the subsequent classification as default is shorter than nine months, institutions should
+treat such exposure as having been constantly defaulted from the first moment when the
+default occurred. Institutions may specify a period longer than nine months for the purpose
+of considering two subsequent defaults as a single default in the LGD estimation, if this is
+adequate to the specific type of exposures and reflects the economic meaning of the default
+experience.
+102. Institutions should estimate their own LGDs based on their own loss and recovery
+experience, as it is reflected in historical data on defaulted exposures. Institutions may
+supplement their own historical data on defaulted exposures with external data. In particular,
+institutions should not derive their LGD estimates only from the market prices of financial
+instruments, including, but not limited to, marketable loans, bonds or credit default
+instruments, but they may use this information to supplement their own historical data.
+103. Where in the case of retail exposures and purchased corporate receivables institutions
+derive LGD estimates from realised losses and appropriate estimates of PDs in accordance
+with Articles 161(2) and 181(2)(a) of Regulation (EU) No 575/2013 they should ensure that:
+(a) the process for estimating total losses meets the requirements of Article 179 of
+Regulation (EU) No 575/2013 and the outcome is consistent with the concept of LGD as
+set out in Article 181(1)(a) of this Regulation, as well as with the requirements specified in
+Chapter 6, in particular with the concept of economic loss as specified in section 6.3.1;
+(b) the process for estimating PD meets the requirements of Articles 179 and 180 of
+Regulation (EU) No 575/2013 as well as the requirements specified in Chapter 5.
+104. An LGD model can contain several different methods, especially with respect to different
+types of collateral, which are combined to arrive at an LGD for a given facility.
+105. Institutions should be able to demonstrate that the methods that they choose for the
+purpose of LGD estimation are appropriate to their activities and the type of exposures to
+which the estimates apply and they should be able to justify the theoretical assumptions
+underlying those methods. The methods used in the LGD estimation should in particular be
+consistent with the collection and recovery policies adopted by the institution and should
+take into account possible recovery scenarios as well as potential differences in the legal
+environment in relevant jurisdictions.
+106. The methods used by the institution in the LGD estimation, the assumptions underlying
+these methods, the institution’s consideration of any downturn effect, the length of data
+series used, the MoC, the human judgement and, where applicable, the choice of risk drivers,
+should be adequate to the type of exposures to which they are applied.
+6.1.2 Data requirements for LGD estimation
+107. For the purpose of LGD estimation institutions should use an RDS covering all of the
+following items:
+(a) all defaults identified during the historical observation period specified in accordance with
+section 6.3.2.1;
+(b) all data necessary for calculating realised LGDs in accordance with section 6.3.1;
+(c) relevant factors that can be used to group the defaulted exposures in meaningful ways
+and relevant drivers of loss, including their values at the moment of default and at least
+within the year before default when available.
+108. Institutions should include in the RDS information on the results of the recovery
+processes, including recoveries and costs, related to each individual defaulted exposure. To
+this end institutions should include:
+(a) information on the results of incomplete recovery processes until the reference date for
+the LGD estimation;
+(b) information on the results of recovery processes at portfolio level, where such
+aggregation of the information is justified, and in particular in the case of indirect costs
+and sale of a portfolio of credit obligations.
+(c) information on external or pooled data used in the estimation of LGDs.
+109. The RDS should contain at least the following information:
+(a) obligor-related, transaction-related and institution-related risk characteristics as well as
+external factors as referred to in paragraph 121 that are potential risk drivers at the
+relevant reference dates as specified in paragraph 122;
+(b) moment (date) of default;
+(c) all default triggers that have occurred, including both past due events and unlikeliness to
+pay events, even after the identification of default; in the case of exposures subject to
+distressed restructuring the amount by which the financial obligation has diminished
+calculated in accordance with the EBA Guidelines on the definition of default;
+(d) the outstanding amount of the exposure at the moment of default including principal,
+interest and fees;
+(e) the amounts and timing of the additional drawings after default;
+(f) the amounts and timing of write-offs;
+(g) the values of collaterals associated with the exposure and, where applicable, the type of
+valuation (such as market value or mortgage lending value as defined in points (74) and
+(76) of Article 4(1) of Regulation (EU) No 575/2013), date of valuation, a flag of whether
+the collateral has been sold and the sale price;
+(h) information on any dependence between the risk of the obligor and the risk of the
+collateral or collateral provider;
+(i) the types, amounts and maturities of unfunded credit protection including the
+specification and credit quality of the protection provider;
+(j) the amounts, timing and sources of recoveries;
+(k) the amounts, timing and sources of direct costs associated with recovery processes;
+(l) a clear identification of the type of termination of the recovery process;
+(m) where applicable, currency mismatches between two or more of the following elements:
+the currency unit used by the institution for financial statements, the underlying
+obligation, any funded or unfunded credit protection and any cash flows from the
+liquidation of the obligor’s assets;
+(n) amount of realised loss.
+110. In accordance with Article 229(1) of Regulation (EU) No 575/2013 institutions may use
+various methods for the valuation of the collateral in the form of immovable property 
+including in particular market value or mortgage lending value as defined in points (74) and
+(76) of Article 4(1) of that Regulation. Where institutions use various valuation approaches
+with regard to immovable properties that secure exposures included in the range of
+application of a certain rating system, they should collect and store in the RDS the
+information on the type of valuation and they should use this information consistently in the
+LGD estimation and in the application of LGD estimates.
+111. Where institutions derive LGD estimates from realised losses and appropriate estimates
+of PDs in accordance with Articles 161(2) and 181(2)(a) of Regulation (EU) 575/2013 they
+should use a RDS that includes realised losses on all defaults identified during the historical
+observation period specified in accordance with section 6.3.2.1 and relevant drivers of loss.
+112. Where aggregated information is collected and stored, institutions should develop an
+appropriate methodology for the allocation of recoveries and costs to individual defaulted
+exposures and should apply this methodology consistently across exposures and over time. In
+any case institutions should demonstrate that the process of allocation of recoveries and
+costs is effective and that it does not lead to biased LGD estimates.
+113. Institutions should demonstrate that they collect and store in their databases all
+information required to calculate direct and indirect costs. All material indirect costs should
+be allocated to the corresponding exposures. This cost allocation process should be based on
+the same principles and techniques that institutions use in their own cost accounting systems.
+For the purpose of indirect cost allocation institutions may use methods based on exposure
+weighted averages, or statistical methods based on a representative sample within the
+population of defaulted obligors or facilities.
+114. Institutions should take reasonable steps to recognise the sources of the cash flows and
+allocate them adequately to the specific collateral or unfunded credit protection that has
+been realised. Where the source of the cash flows cannot be identified, institutions should
+specify clear policies for the treatment and allocation of such recovery cash flows, which
+should not lead to a bias in LGD estimation.
+6.1.3 Recoveries from collaterals
+115. Institutions should recognise the recoveries as stemming from collaterals in all of the
+following situations:
+(a) the collateral is sold by the obligor and the obtained price has been used to cover parts or
+all of the outstanding amount of the defaulted credit obligation;
+(b) the collateral is repossessed or sold by the institution, the parent undertaking or any of its
+subsidiaries on behalf of the institution;
+(c) the collateral is sold in a public auction of the property by court order or in a similar
+procedure in accordance with the applicable legal framework;
+(d) the credit obligation is sold together with the collateral and the sale price for the credit
+obligation included the existing collateral;
+(e) in the case of leasing, the leasing object is sold by the institution;
+(f) the collateral is realised by any other method that is eligible under the legal framework of
+the relevant jurisdiction.
+116. For the purpose of point (b) of paragraph 115 institutions should determine the value of
+repossession as the value by which the credit obligation of the obligor has been diminished as
+a result of the repossession of the collateral, and with which the repossessed collateral was
+recorded as an asset on the balance sheet of the institution. Where these values are different
+institutions should consider the lower of the two the value of repossession. The value of
+repossession should be considered a value of recovery at the date of repossession and should
+be included in the calculation of the economic loss and realised LGD in accordance with
+section 6.3.1.
+117. Institutions should consider whether the value of repossession adequately reflects the
+value of the repossessed collateral, consistently with any established internal requirements
+for collateral management, legal certainty and risk management. Where the collateral
+repossessed meets the criteria for high quality liquid assets at Level 1, as defined in Article 10
+of Commission Delegated Regulation (EU) 2015/61, institutions may take into account directly
+as a realised recovery the market value of the collateral at the time of the repossession. In all
+other cases institutions should apply an appropriate haircut to the value of repossession and
+include in the calculation of economic loss a recovery in the amount of the value of
+repossession after applying the appropriate haircut. Institutions should estimate this haircut
+taking into account all of the following conditions:
+(a) the haircut should reflect possible errors in the valuation of the collateral at the moment
+of repossession taking into account the type of the valuation available at the moment of
+repossession, the date it was performed and the liquidity of the market for this type of
+asset;
+(b) the haircut should be estimated with the assumption that the institution intends to sell
+the repossessed collateral to an independent third party and should reflect the potential
+price that could be achieved from such sale, the costs of the sale and the discounting
+effect for the period from the sale to the moment of repossession taking into account the
+liquidity of the market for this type of assets;
+(c) where there are observations available regarding the repossessions and subsequent sales
+of similar types of collaterals the estimation of the haircut should be based on these
+observations and should be regularly backtested; for this purpose institutions should take
+into account all of the following:
+(i) the difference between the value of repossession and the sale price, especially
+where there were no significant changes in market and economic conditions
+between the moment of the repossession and the moment of the sale;
+(ii) any income and costs related to this asset that were observed between the date
+of repossession and the moment of the sale;
+(iii) discounting effects;
+(iv) whether the institution repossessed the collateral with the intention of
+immediate sale or whether another strategy was adopted.
+(d) where historical observations regarding the repossessions and subsequent sales of similar
+types of collaterals are not available the estimation of the haircut should be based on a
+case-by-case assessment, including the analysis of the current market and economic
+conditions;
+(e) the fewer data an institution has on previous repossessions and the less liquid the market
+for the given type of assets is, the more uncertainty is attached to the resulting estimates,
+which should be adequately reflected in the MoC in accordance with section 4.4.3.
+118. In any case the repossession of collateral should be recognised at the moment of
+repossession and should not prevent the institution from closing the recovery process in
+accordance with paragraph 155.
+119. Any sale of credit obligations in accordance with point (d) of paragraph 115 should be
+included in the LGD estimation in a manner appropriate to the LGD estimation methodology
+taking into account all of the following conditions:
+(a) where institutions regularly sell credit obligations as part of their recovery processes, they
+should appropriately reflect the observations related to credit obligations subject to the
+sale in the model development process;
+(b) where institutions do not regularly sell credit obligations as part of their recovery
+processes and the allocation of the part of the price related to collaterals is too
+burdensome to make or too unreliable, they may decide not to take these observations
+into account in the process of model development;
+(c) institutions should not treat recoveries from the sales of the secured credit obligations as
+recoveries realised without the use of collaterals unless they can demonstrate that the
+recoveries related to these collaterals are immaterial;
+(d) in any case institutions should include all observations, including the sales of credit
+obligations, in the calculation of long-run average LGD. 
+120. In accordance with point (f) of paragraph 115 institutions may specify and recognise any
+other forms of realising collaterals adequate to the types of collaterals used by the institution
+that are eligible under the applicable legal framework. When recognising such other forms of
+realising collateral, institutions should take into account the fact that the collateral may take
+various forms and that various forms of collaterals may be related to the same asset. Where
+different forms of collateral refer to the same asset but the realisation of one of the
+collaterals does not decrease the value of the other, institutions should consider them
+separate collaterals in the process of LGD estimation. In particular, institutions should
+recognise separately the form of collateral which gives a right to repossess or sell the asset
+(such as a mortgage) and the form of collateral which gives a right to collect cash flows
+generated by the asset (such as a cession of rent or fees).
+6.2 Model development in LGD estimation
+6.2.1 Risk drivers
+121. Institutions should identify and analyse potential risk drivers that are relevant to their
+specific circumstances and to the specific characteristics of the type of exposures covered by
+the rating system. Potential risk drivers analysed by institutions should include in particular
+the following:
+(a) transaction-related risk characteristics, including type of product, type of collateral,
+geographical location of the collateral, unfunded credit protection, seniority, Loan-to-Value ratio (LtV), exposure size, seasoning, and recovery procedures;
+(b) obligor-related risk characteristics, including, where applicable, size, capital structure,
+geographical region, industrial sector, and line of business;
+(c) institution-related factors, including internal organisation and internal governance,
+relevant events such as mergers, and existence of specific entities within the group
+dedicated to recoveries;
+(d) external factors, including interest rates, legal framework and other factors influencing
+the expected length of the recovery process.
+122. Institutions should analyse the risk drivers not only at the moment of default but also at
+least within a year before default. Institutions should use a reference date for a risk driver
+that is representative of the realisations of the risk driver within a year before default. When
+choosing the appropriate reference date for a risk driver institutions should take into account
+its volatility over time. Institutions should apply these practices also with regard to the
+reference date of the valuation of collateral; the value of the collateral at the reference date
+should not reflect the impact of the decrease in credit quality of the exposure shortly before
+default.
+
+123. Institutions should specify or calculate the risk drivers in the application of LGD estimates
+in the same way as they are specified or calculated in the estimation of LGD.
+6.2.2 Eligibility of collaterals
+124. In accordance with Articles 170 and 181(1)(f) of Regulation (EU) No 575/2013 institutions
+may take into account in their LGD estimations the existence of any types of collaterals for
+which they have established internal requirements in terms of collateral management, legal
+certainty and risk management that are generally consistent with those set out in Section 3 of
+Chapter 4 of Title II in Part Three of that Regulation. In the case of the types of collateral that
+are not specified in Chapter 4 of Title II in Part Three of that Regulation institutions may use
+those types of collaterals in their LGD estimations where their policies and procedures
+relating to internal requirements for valuation and legal certainty of these collaterals are
+appropriate to the respective type of collateral.
+125. To the extent that LGD estimates take into account the existence of unfunded credit
+protection institutions should specify the criteria and methodology for recognising and
+including in their LGD estimates the protection in the form of guarantees and credit
+derivatives that meet the criteria specified in Article 60 of the RTS on IRB assessment
+methodology.
+126. Institutions should take into account as a risk driver or segmentation criterion information
+on all main types of collaterals that are used within the scope of application of the LGD
+model. Institutions should clearly define in their internal policies the main and other types of
+collaterals used for the type of exposures covered by the rating system and should ensure
+that, to the extent that LGD estimates take into account the existence of collateral, the
+policies regarding the management of these types of collateral comply with the requirement
+of Article 181(1)(f) of Regulation (EU) No 575/2013. Institutions should specify the main types
+of collaterals in such a way that the cash flows from the remaining types of collaterals will not
+significantly bias the estimation of recoveries that are realised without the use of collaterals.
+127. Collaterals which do not meet the requirement of Article 181(1)(f) of Regulation (EU) No
+575/2013 cannot be included as a risk driver in the LGD estimation and the cash flows
+received from those collaterals should be treated as if they had been received without the
+use of collaterals. Regardless of this treatment in the LGD estimation, institutions should
+collect the information about the source of the cash flows related to those collaterals and
+allocate them as related to those collaterals. Institutions should regularly monitor the levels
+of such cash flows as well as the extent to which the relevant types of collaterals are used.
+Where necessary, institutions should perform appropriate adjustments in order to avoid any
+bias in the LGD estimates.
+6.2.3 Inclusion of collaterals in the LGD estimation
+128. For the purpose of LGD estimation institutions may group the types of collaterals that are
+homogeneous in terms of recovery patterns taking into account both the average time of
+collection process and the recovery rates on these types of collaterals.
+129. The approach developed by institutions to include the effect of collaterals in the LGD
+estimation should meet all of the following conditions:
+(a) institutions should avoid the bias that may stem from including the cash flows related to
+realisation of collateral in the estimation of recoveries that are realised without the use of
+collaterals and vice versa;
+(b) where institutions estimate separate recovery rates for specific types of collaterals, they
+should avoid a bias that may stem from including in the estimation sample the
+observations where the exposure was secured by only a part of the value of the collateral.
+For this purpose institutions should take reasonable steps to obtain the data on the total
+value of the collateral and total sale price of the collateral and include this information in
+the estimation where it is available;
+(c) where institutions estimate separate recovery rates for specific types of collaterals they
+should recognise and include in this estimation direct costs related to the collection on
+each of these specific types of collaterals separately as well;
+(d) where institutions estimate separate recovery rates for specific types of collaterals they
+should include in this estimation all recoveries realised from a specific type of collateral
+including those realised on exposures where the realisation of the collateral has been
+completed but the overall recovery process has not yet been closed;
+(e) where the same collateral covers several exposures, institutions should specify an
+adequate allocation methodology in order to avoid double counting of collaterals; the
+allocation methodology should be consistent between the LGD estimation and the
+application of LGD estimates and with the methodology used for accounting purposes;
+(f) the estimates should not be based solely on the estimated market value of the collateral
+but they should also take into account the realised recoveries from past liquidations and
+the potential inability of an institution to gain control and liquidate the collateral. For this
+purpose, institutions should take into account in the estimation those historical
+observations where the collateral could not be realised or where the recovery process
+was longer than expected, due to inability or difficulty to gain control or liquidate the
+collateral. Where institutions estimate the recovery rates related to specific types of
+collaterals, they should take into account the time between the moment of default and
+the time when the cash flows related to the collection on these types of collaterals have
+been received and should include in the estimation those observations where the
+collateral has not been realised as a result of inability to gain control;
+(g) the estimates should take into account the potential decreases in collateral value from
+the point of LGD estimation to the eventual recovery, in particular those resulting from
+changes in the market conditions, the state and age of the collateral and, where relevant,
+currency fluctuations. Where institutions have experienced decreases in values of
+collaterals and these are already reflected in observed recoveries, no further adjustments
+to the LGD estimates based on these observations should be made. Where potential
+decreases in values of collaterals are not reflected in historical observations or where
+institutions predict further, potentially more severe decreases in the future, they should
+be included in the quantification of LGD estimates by means of an appropriate
+adjustment based on forward-looking expectations. However, the LGD estimates should
+not be adjusted to take into account any potential increases in collateral value;
+(h) the estimates should take into account in a conservative manner the degree of
+dependence between the risk of the obligor and the risk of the diminishing value of the
+collateral as well as the cost of liquidating the collateral.
+6.2.4 Homogeneity of facility grades or pools
+130. In order to fulfil the requirement of Article 38 of the RTS on IRB assessment methodology,
+institutions should assess the homogeneity of exposures assigned to the same grades or pools
+based on the data in the RDS and they should ensure, in particular, that grades are defined in
+such a manner that individual grades are sufficiently homogeneous with respect to loss
+characteristics.
+6.3 LGD calibration
+6.3.1 Calculation of economic loss and realised LGD
+6.3.1.1 Definition of economic loss and realised LGD
+131. For the purpose of LGD estimation as referred to in Article 181(1)(a) of Regulation (EU) No
+575/2013, institutions should calculate realised LGDs for each exposure, as referred to in
+point (55) of Article 4(1) of that Regulation, as a ratio of the economic loss to the outstanding
+amount of the credit obligation at the moment of default, including any amount of principal,
+interest or fee.
+132. For the purpose of paragraph 131, institutions should calculate the economic loss realised
+on an instrument (i.e. defaulted facility), as referred to in point (2) of Article 5 of Regulation
+(EU) No 575/2013 as a difference between:
+(a) the outstanding amount of the credit obligation at the moment of default, without
+prejudice to paragraph 140, including any amount of principal, interest or fee, increased
+by material direct and indirect costs associated with collecting on that instrument
+discounted to the moment of default; and 
+(b) any recoveries realised after the moment of default discounted to the moment of default.
+133. For the purpose of calculation of the economic loss realised on an exposure in accordance
+with paragraph 132 institutions should take into account all realised recoveries including the
+recoveries from unknown sources and recoveries related to collaterals that do not meet the
+requirement of Article 181(1)(f) of Regulation (EU) No 575/2013.
+134. Where, relating to a default event, any part of exposure has been forgiven or written off
+before or at the date of default and the amount forgiven or written off is not included in the
+outstanding amount of the credit obligation at the moment of default the amount of the
+exposure that was forgiven or written off should be added to the outstanding amount of the
+credit obligation at the moment of default for both the calculation of economic loss as
+specified in paragraph 132 in the numerator, and the calculation of the outstanding amount
+of credit obligation in the denominator of the realised LGD.
+135. In the case of exposures that return to non-defaulted status, institutions should calculate
+economic loss as for all other defaulted exposures with the only difference that an additional
+recovery cash flow should be added to the calculation as if a payment had been made by the
+obligor in the amount that was outstanding at the date of the return to non-defaulted status,
+including any principal, interests and fees (‘artificial cash flow’). This artificial cash flow should
+be discounted to the moment of default in the same manner as all observed cash flows.
+Where the exposures meet the criteria of paragraph 101, the realised LGD should be
+calculated with the reference to the date of the first default event taking into account all cash
+flows observed from the date of the first default event, including those observed during the
+period between the first and the second defaulted status, without adding any artificial cash
+flows.
+136. Where institutions open new facilities to replace previously defaulted facilities as part of
+restructuring or for technical reasons, they should calculate the realised LGDs based on the
+originally defaulted facilities. For this purpose, institutions should have a sound mechanism to
+allocate observed costs, recoveries and any additional drawings to original facilities.
+6.3.1.2 Treatment of fees, interest and additional drawings after default
+137. For the purpose of Article 181(1)(i) of Regulation (EU) No 575/2013, institutions should
+take into account in the calculation of realised LGD any fees for delays in payments that have
+been capitalised in the institution’s income statement before the moment of default by
+including them in the outstanding amount of the credit obligation at the moment of default in
+the numerator and denominator of the realised LGD. Where the fees were extended to the
+obligor in order to recover direct costs already incurred by the institution and these costs are
+already included in the calculation of the economic loss, institutions should not add these
+amounts to the economic loss or outstanding amount again. Any fees capitalised after the
+moment of default should not increase the amount of economic loss or amount outstanding
+at the moment of default. However, all recoveries, including those related to fees capitalised
+after default, should be included in the calculation of economic loss.
+138. Institutions should apply the treatment specified in paragraph 137 to any interest
+capitalised in the institution's income statement before and after the moment of default.
+139. In accordance with Article 182(1)(c) of Regulation (EU) No 575/2013 institutions that
+obtained permission to use own estimates of LGD and conversion are required to reflect the
+possibility of additional drawings by the obligor up to and after the time of default in their
+estimates of conversion factors. In the case of retail exposures, in accordance with Articles
+181(2)(b) and 182(3) of this Regulation institutions may reflect future drawings either in their
+conversion factors or in their LGD estimates. These future drawings should be understood as
+additional drawings by the obligor after the moment of default.
+140. Where institutions include additional drawings by the obligor after the moment of default
+in their conversion factors they should calculate realised LGD as a ratio of the economic loss
+to the outstanding amount of the credit obligation at the moment of default increased by the
+amount of additional drawings by the obligor after the moment of default discounted to the
+moment of default.
+141. For retail exposures, where institutions do not include additional drawings by the obligor
+after the moment of default in their conversion factors they should calculate realised LGD as a
+ratio of the economic loss to the outstanding amount of the credit obligation at the moment
+of default and they should not increase the denominator of the ratio by the value of
+additional drawings by the obligor after the moment of default.
+142. Irrespective of whether institutions reflect future drawings in their conversion factors or
+in their LGD estimates they should calculate the economic loss used in the numerator of the
+realised LGD including the additional drawings after the moment of default and all realised
+recoveries discounted to the moment of default.
+6.3.1.3 Discounting rate
+143. For the purpose of the calculation of economic loss, in accordance with point (2) of Article
+5 of Regulation (EU) No 575/2013, institutions should discount all recoveries, costs and
+additional drawings after the moment of default using an annual discounting rate composed
+of a primary interbank offered rate applicable at the moment of default increased by an add-on of 5%-points. For this purpose the primary interbank offered rate should be considered the
+3-month EURIBOR or a comparable liquid interest rate in the currency of the exposure.
+6.3.1.4 Direct and indirect costs
+144. For the purpose of the calculation of the realised LGDs, institutions should take into
+account all material direct and indirect cost related to the recovery process. Where any
+material direct or indirect costs relating to the collection on exposures and the default of the
+respective counterparty have been incurred before the moment of default institutions should
+include these costs in the LGD estimation unless at least one of the following conditions is
+met:
+(a) these costs are clearly included in the outstanding amount of the credit obligation at the
+moment of default;
+(b) these costs are associated with the previous default of the same obligor, which is not
+considered a multiple default in accordance with paragraph 101.
+145. Direct costs should include the costs of outsourced collection services, legal costs, the
+cost of hedges and insurances and all other costs directly attributable to the collection on a
+specific exposure. Institutions should consider all direct costs as material.
+146. Indirect costs should include all costs stemming from the running of the institution’s
+recovery processes, overall costs of outsourced collection services not included as direct
+costs, and all other costs related to the collection on defaulted exposures that cannot be
+directly attributed to collection on a specific exposure. Institutions should include in their
+estimation of indirect costs an appropriate percentage of other ongoing costs, such as
+institutions’ overheads related to the recovery processes, unless they can demonstrate that
+these costs are immaterial.
+6.3.2 Long-run average LGD
+6.3.2.1 Historical observation period
+147. The historical observation period should be as broad as possible and should contain data
+from various periods with differing economic circumstances. For this purpose institutions
+should at a minimum select a historical observation period in such a way that:
+(a) the length of the historical observation period, i.e. the timespan between the oldest
+default considered in the RDS and the moment of the LGD estimation, covers at least the
+minimum length specified in Article 181(1)(j) of Regulation (EU) No 575/2013 for
+exposures to corporates, institutions, central governments and central banks and, for
+retail exposures, the period specified in Article 181(2) subparagraph 2 of that Regulation
+and, where applicable, Commission Delegated Regulation adopting technical standards
+laid down in Article 181(3)(b) of that Regulation;
+(b) it ensures that the RDS includes a sufficient number of closed recovery processes in order
+to provide robust LGD estimates;
+(c) it is composed of consecutive periods and includes the most recent periods before the
+moment of LGD estimation;
+(d) it includes the full period for which the institution is reasonably able to replicate the
+currently applicable definition of default;
+(e) all available internal data is considered ‘relevant’, as referred to in Articles 181(1)(j) and
+181(2) subparagraph 2 of Regulation (EU) No 575/2013 and is included in the historical
+observation period.
+148. In assessing whether the RDS includes a sufficient number of closed recovery processes
+in accordance with paragraph 147(b), institutions should take into account the number of
+closed recovery processes in the total number of observations.
+6.3.2.2 Calculation of long-run average LGD
+149. In accordance with letter (a) of Article 181(1) of Regulation (EU) No 575/2013 institutions
+are required to calculate the long-run average LGD separately for each facility grade or pool.
+In this context institutions should calculate the long-run average LGD also at the level of the
+portfolio covered by the LGD model. In the calculation of long-run average LGD institutions
+should use all defaults observed in the historical observation period that fall within the scope
+of the LGD model.
+150. Without prejudice to Article 181(2) of Regulation (EU) No 575/2013 institutions should
+calculate the long-run average LGD as an arithmetic average of realised LGDs over a historical
+observation period weighted by a number of defaults. Institutions should not use for that
+purpose any averages of LGDs calculated on a subset of observations, in particular any yearly
+average LGDs, unless they use this method to reflect higher weights of more recent data on
+retail exposures in accordance with Article 181(2) of Regulation (EU) No 575/2013.
+151. Where institutions do not give equal importance to all historical data for retail exposures
+in accordance with Article 181(2) of Regulation (EU) No 575/2013 they should be able to
+demonstrate in a documented manner that the use of higher weights for more recent data is
+justified by better prediction of loss rates. In particular where zero or very small weights are
+applied to specific periods this should be duly justified or lead to more conservative
+estimates.
+152. In specifying the weights in accordance with paragraph 151 institutions should take into
+account the representativeness of data assessed in accordance with section 4.2.4 as well as
+the economic and market conditions that are represented by the data.
+6.3.2.3 Treatment of incomplete recovery processes
+153. For the purposes of letter (a) of Article 181(1) of Regulation (EU) No 575/2013, in relation
+to the use of all defaults observed during the historical observation period within the data
+sources for LGD estimation, institutions should ensure that the relevant information from
+incomplete recovery processes is taken into account in a conservative manner. The LGD
+estimation should be based on the long-run average LGD.
+154. Institutions should calculate the observed average LGD for each facility grade or pool and
+at the level of the portfolio covered by the LGD model taking into account realised LGDs on all
+defaults observed in the historical observation period related to closed recovery processes in
+accordance with paragraphs 155 to 157 without including any expected future recoveries. The
+observed average LGD should be weighted by the number of defaults included in the
+calculation.
+155. Institutions should clearly specify in their internal policies the moment of closing the
+recovery processes. All recovery processes that have been closed should be treated as such
+for the purpose of the calculation of the observed average LGD.
+156. Institutions should define the maximum period of the recovery process for a given type of
+exposures from the moment of default that reflects the expected period of time observed on
+the closed recovery processes during which the institution realises the vast majority of the
+recoveries, without taking into account the outlier observations with significantly longer
+recovery processes. The maximum period of the recovery processes should be specified in a
+way that ensures sufficient data for the estimation of the recoveries within this period for the
+incomplete recovery processes. The length of the maximum period of the recovery processes
+may be different for different types of exposures. The specification of the maximum period of
+the recovery process should be clearly documented and supported by evidence of the
+observed recovery patterns, and should be coherent with the nature of the transactions and
+the type of exposures. Specification of the maximum period of the recovery process for the
+purpose of the long-run average LGD should not prevent institutions from taking recovery
+actions where necessary, even with regard to exposures which remain in default for a period
+of time longer than the maximum period of the recovery process specified for this type of
+exposures.
+157. For the purpose of the calculation of the observed average LGD, institutions should
+recognise without undue delay as closed recovery processes all exposures in default which fall
+into at least one of the following categories:
+(a) exposures for which the institution does not expect to take any further recovery actions;
+(b) exposures that remain in defaulted status for a period of time longer than the maximum
+period of the recovery process specified for this type of exposures;
+(c) exposures fully repaid or written-off;
+(d) exposures that have been reclassified to non-defaulted status.
+With regard to the defaulted exposures falling under the categories in points (a) and (b), all
+recoveries and costs realised before or at the time of estimation should be considered for the
+purpose of the calculation of the observed average LGD, including any recoveries realised
+after the maximum period of the recovery processes.
+158. Institutions should obtain the long-run average LGD by adjusting the observed average
+LGD taking into account the information related to processes that were not closed
+(‘incomplete recovery processes’) and where the time from the moment of default until the
+moment of estimation is shorter than the maximum period of the recovery process specified
+for this type of exposures. For these processes, institutions should comply with both of the
+following:
+(a) they should take into account all observed costs and recoveries;
+(b) they may estimate future costs and recoveries, both those stemming from the realisation
+of the existing collaterals and those to be realised without the use of collaterals within the
+maximum period of the recovery processes.
+159. The estimation referred to in paragraph 158(b) should comply with the following
+principles:
+(a) for the purpose of estimation of the future costs and recoveries institutions should
+analyse the costs and recoveries realised on these exposures until the moment of
+estimation, in comparison with the average costs and recoveries realised during a similar
+period of time on similar exposures; for this purpose institutions should analyse the
+recovery patterns observed on both closed and incomplete recovery processes, taking
+into account only costs and recoveries realised up to the moment of estimation;
+(b) the assumptions underlying the expected future costs and recoveries as well as the
+adjustment to the observed average LGD should be:
+i. proven accurate through back-testing;
+ii. based on a reasonable economic rationale;
+iii. proportionate, taking into consideration that LGD estimates should be based on
+the long-run average LGD that reflects the average LGDs weighted by the number
+of defaults using all defaults observed during a historical observation period.
+(c) in estimating the future recoveries institutions should take into account the potential bias
+stemming from incomplete recovery processes being characterised by longer average
+recovery processes or lower average recoveries than closed recovery processes;
+(d) in estimating the future recoveries stemming from the realisation of the existing
+collaterals institutions should take into account the legal certainty of the claims on the
+collateral and realistic assumptions regarding the possibility of its realisation;
+(e) the adjustment of the observed average LGD may be estimated at the level of individual
+exposures, at the level of grade or pool or at the level of portfolio covered by the LGD
+model;
+(f) any uncertainty related to the estimation of the future recoveries on incomplete recovery
+processes should be reflected in an adequate MoC applied in accordance with section 4.4.
+6.3.2.4 Treatment of cases with no loss or positive outcome
+160. Where institutions observe that they realised profit on their observations of defaults, the
+realised LGD on these observations should equal zero for the purpose of calculation of the 
+observed average LGD and the estimation of the long-run average LGD. Institutions may use
+the information on the realised LGDs before the application of this floor in the process of
+model development for the purpose of risk differentiation.
+6.3.3 Calibration to the long-run average LGD
+161. Institutions should calibrate their LGD estimates to the long run average LGD calculated in
+accordance with section 6.3.2. For this purpose institutions should choose a calibration
+method that is appropriate for their LGD estimation methodology from the following
+approaches:
+(a) the calibration of LGD estimates to the long-run average LGD calculated for each grade or
+pool, in which case they should provide additional calibration tests at the level of the
+relevant calibration segment;
+(b) the calibration of LGD estimates to the long-run average LGD calculated at the level of
+calibration segment, in particular where they use direct LGD estimates in accordance with
+Article 169(3) of Regulation (EU) No 575/2013, including where they use LGD estimation
+methodology based on intermediate parameters. In this case institutions should at least
+compare this long-run average LGD with the average LGD estimate applied to the same
+set of observations as those used for calculating the long-run average LGD and, where
+necessary, correct the individual LGD estimates for the application portfolio accordingly,
+for instance by using a scaling factor. Where realised values are higher than estimated
+values at the level of calibration segment, institutions should correct the estimates
+upwards or readjust their estimation in order to reflect their loss experience.
+162. Where institutions observe extremely high values of realised LGDs much above 100%,
+especially for exposures with small outstanding amounts at the moment of default, they
+should identify relevant risk drivers to differentiate these observations and adequately reflect
+these specific characteristics in the assignment to grades or pool. Where institutions use a
+continuous rating scale in the LGD estimation, they may create a separate calibration segment
+for such exposures.
+163. In order to comply with the requirement of Article 181(1)(a) of Regulation (EU) No
+575/2013 to use all observed defaults in LGD quantification, institutions should not exclude
+any defaults observed in the historical observation period that fall within the scope of
+application of the LGD model.
+164. In the analysis of the representativeness of data in accordance with section 4.2.4,
+institutions should take into account not only the current characteristics of the portfolio but
+also, where relevant, the changes to the structure of the portfolio that are expected to
+happen in the foreseeable future due to specific actions or decisions that have already been
+taken. Adjustments made on the basis of the changes expected in the foreseeable future
+should not lead to a decrease in the estimates of LGD parameter.
+7 Estimation of risk parameters for
+defaulted exposures
+7.1 General requirements specific to ELBE and LGD in-default
+estimation
+7.1.1 Estimation methodologies for ELBE and LGD in-default
+165. Institutions that have obtained permission to use own estimates of LGD in accordance
+with Article 143(2) of Regulation (EU) No 575/2013, should assign an ELBE estimate and an
+LGD in-default estimate to each defaulted exposure within the range of application of the
+rating system subject to such permission.
+166. Institutions should estimate ELBE and LGD in-default for each of the facility grades of the
+distinct facility rating scale or for each of the pools that are used within the rating system.
+167. For the purposes of ELBE and LGD in-default estimation, and unless otherwise specified in
+this Chapter, institutions should use the same estimation methods used for estimating LGD on
+non-defaulted exposures, as set out in Chapter 6.
+168. Institutions should take into consideration all relevant post-default information in their
+ELBE and LGD in-default estimates in a timely manner, in particular where events from the
+recovery process invalidate the recovery expectations underlying the most recent estimates.
+169. Institutions should assess and duly justify situations where the estimates of LGD indefault shortly after the date of default systematically deviate from the LGD estimates
+immediately before the date of default at the facility grade or pool, where these deviations do
+not stem from the use of risk drivers that are applicable only from the date of default
+onwards.
+170. Institutions should perform back-testing and benchmarking of their ELBE and LGD indefault estimates in accordance with points (b) and (c) respectively, of Article 185 of
+Regulation (EU) No 575/2013.
+7.1.2 Reference dates
+171. For the purposes of ELBE and LGD in-default estimation, institutions should set the
+reference dates to be used for grouping defaulted exposures in accordance with the recovery
+patterns observed. These reference dates should be used in the estimation of ELBE and LGD indefault instead of the date of default. For the purposes of setting the reference dates 
+institutions should use information only on closed recovery processes taking into account
+costs and recoveries only if observed up to the date of estimation.
+172. Each of the reference dates referred to in paragraph 171 could be any of the following:
+(a) a specific number of days after the date of default; this option would be appropriate in
+particular where the estimation refers to a portfolio of exposures showing a stable
+recovery pattern through time;
+(b) a relevant date associated with a specific event at which significant breaks in the recovery
+profile are observed; this option would be appropriate in particular where the estimation
+refers to a portfolio of exposures that are subject to significant changes of the recovery
+patterns associated with certain specific events, for instance at the date of realisation of
+collateral;
+(c) any combination of the cases referred to in points (a) and (b) that better reflects the
+recovery patterns; this option would be appropriate in particular where the estimation
+refers to a portfolio of exposures showing a stable recovery pattern through time but for
+which breaks in such recovery patterns are observed around certain specific events, for
+instance at collection, and where the reference dates following those events are defined
+as a specific number of days after the recovery event, rather than after the date of
+default;
+(d) where appropriate, the reference date can have any value between zero and the number
+of days until the end of the maximum period of the recovery process set by the institution
+for the type of exposures in question.
+173. For the purposes of ELBE and LGD in-default estimation the same defaulted exposures in
+the RDS should be used at all relevant reference dates considered in the model.
+174. Institutions should monitor on a regular basis potential changes in the recovery patterns
+and in the relevant recovery policies which may affect the estimation of ELBE and LGD in-default at each reference date.
+7.1.3 Data requirements for ELBE and LGD in-default estimation
+175. For the purposes of ELBE and LGD in-default estimation, institutions should use the same
+RDS referred to in section 6.1.2, complemented by any relevant information observed during
+the recovery process and at each reference date, specified in accordance with paragraphs 171
+to 174 and, in particular at least the following additional information:
+(a) all relevant factors that can be used to group defaulted exposures, and all relevant drivers
+of loss, including those that may become relevant after the date of default and at each
+reference date;
+(b) the amount outstanding at each reference date; 
+(c) the values of any collateral associated with the defaulted credit obligations and their
+dates of valuation after the date of default.
+7.2 Model development in the estimation of ELBE and LGD in-default
+176. For the purposes of taking into account the information on the time in-default and
+recoveries realised so far, in accordance with Article 54(2)(b) of the RTS on IRB assessment
+methodology institutions may take into account this information either directly as risk drivers
+or indirectly, for instance by setting the reference date for estimation, as referred to in
+paragraphs 171 to 174.
+177. For the purpose of ELBE and LGD in-default estimation, institutions should analyse the
+potential risk drivers referred to in paragraph 121 not only until the moment of default but
+also after the date of default and until the date of termination of the recovery process.
+Institutions should analyse also other potential risk drivers that might become relevant after
+the date of default, including in particular the expected length of the recovery process and
+the status of the recovery process. Institutions should use the values of risk drivers as well as
+the values of collateral adequate to the reference dates specified in accordance with
+paragraphs 171 to 174.
+7.3 Calibration of ELBE and LGD in-default
+7.3.1 Calculation of realised LGD and long-run average LGD for defaulted
+exposures
+178. For the purposes of ELBE and LGD in-default estimation, institutions should calculate the
+realised LGDs for defaulted exposures, in accordance with section 6.3.1 with the only
+difference that this should be done with regard to each of the reference dates specified in
+accordance with paragraphs 171 to 174, rather than the date of default. In the calculation of
+the realised LGD at a given reference date institutions should include all fees and interest
+capitalised before the reference date and they should discount all subsequent cash flows and
+drawings to the reference date.
+179. Where, after the moment of default, institutions write-off part of the exposure the
+calculation of the economic loss and the realised LGD should be based on the full amount of
+the outstanding credit obligation, without taking into account the partial write-off. However,
+where institutions regularly write-off parts of exposures based on a consistent policy in terms
+of the time and proportion of the write-off, they may include this information in the
+calibration of final ELBE and LGD in-default. Where institutions perform write-offs in a less
+regular manner, they may reflect the information about the partial write-off of a specific
+exposure in the application of these parameters to this exposure by overriding the output of
+the rating assignment process in accordance with section 8.2 in order to ensure consistency
+between the LGD estimation and the application of the LGD estimates.
+180. For the purposes of ELBE and LGD in-default estimation, institutions should calculate the
+long run average LGD of the realised LGDs for defaulted exposures, referred to in paragraph
+178, following the requirements set out in section 6.3.2 with the only exception that, for each
+reference date, incomplete recovery processes should be used only if their relevant reference
+date for the application of the ELBE and LGD in-default parameters is posterior to the
+reference date under consideration for the estimation.
+181. In accordance with section 6.3.2.3 institutions should not estimate any future recoveries
+for exposures that remain in defaulted status for a period of time longer than the maximum
+length of the recovery process as specified by the institution. However, relevant information
+regarding specific exposures, in particular information about existing collateral, may be
+reflected in the application of these parameters by overriding the output of the rating
+assignment process in accordance with section 8.2.
+7.3.2 Specific requirements for ELBE estimation
+7.3.2.1 Consideration of MoC in ELBE estimation
+182. For the purpose of Article 181(1)(h) of Regulation (EU) No 575/2013 the ELBE should not
+include any MoC in the sense of section 4.4.3.
+7.3.2.2 Current economic circumstances
+183. For the purposes of considering current economic circumstances in their ELBE estimates,
+as required by Article 181(1)(h) of Regulation (EU) No 575/2013, institutions should take into
+account economic factors, including macroeconomic and credit factors, relevant for the type
+of exposures under consideration.
+184. The ELBE should be estimated on the basis of the long-run average LGD, referred to in
+paragraph 180 and no further adjustments to reflect current economic conditions should be
+performed where any of the following conditions is met:
+(a) the model includes directly at least one macroeconomic factor as a risk driver;
+(b) at least one material risk driver is sensitive to economic conditions;
+(c) the realised LGD for defaulted exposures, referred to in paragraph 178, is not
+sensitive to the economic factors relevant for the type of exposures under
+consideration.
+185. Where none of the conditions listed in paragraph 184 is met, institutions should adjust
+the long run average LGD for defaulted exposures to reflect current economic conditions. In
+this case institutions should document separately the long-run average LGD for defaulted
+exposures, referred to in paragraph 180, and the adjustment to current economic conditions.
+GUIDELINES ON PD ESTIMATION, LGD ESTIMATION AND TREATMENT DEFAULTED EXPOSURES
+94
+7.3.2.3 Relation of ELBE to specific credit risk adjustments
+186. Where the model used for credit risk adjustments satisfies or can be adjusted to satisfy
+the requirements for own-LGD estimates set out in Part Three, Title II, Chapter 3, Section 6 of
+Regulation (EU) No 575/2013, institutions may use specific credit risk adjustments as ELBE
+estimates.
+187. Where specific credit risk adjustments are assessed individually for a single exposure or a
+single obligor, institutions may override the ELBE estimates based on specific credit risk
+adjustments, where they are able to prove that this would improve the accuracy of the ELBE
+estimates and that the specific credit risk adjustments reflect or are adjusted to the
+requirements set in section 6.3.1 on the calculation of economic loss.
+188. For the purposes of justifying situations where the specific credit risk adjustments exceed
+the ELBE estimates in accordance with Article 54(2)(f) of the RTS on IRB assessment
+methodology, institutions should ensure consistency of the ELBE estimates with the economic
+loss components described in section 6.3.1 as well as with the definition of default set out in
+Article 178 of Regulation (EU) No 575/2013 and analyse any differences in that regard from
+the definitions and methods used for the purpose of determining specific credit risk
+adjustments. In particular, institutions should take into account, the possible differences in
+the discounting rate, the presence of collateral that is not eligible under Article 181(1)(f) of
+Regulation (EU) No 575/2013, different treatments of costs and the application of different
+definitions of default.
+7.3.3 Specific requirements for LGD in-default estimation
+189. For the purpose of considering the possible adverse change in economic conditions
+during the expected length of the recovery processes referred to in Article 54(2)(a) of the RTS
+on IRB assessment methodology the LGD in-default should reflect at least downturn
+conditions, where the estimates of LGD in-default that are appropriate for an economic
+downturn are more conservative than the long-run average LGD for defaulted exposures,
+referred to in paragraph 180.
+190. For the purpose of Article 181(1)(h) of Regulation (EU) No 575/2013 the LGD in-default
+should be increased above the level referred to in paragraph 189 where this is necessary to
+ensure that the difference between the LGD in-default and the ELBE covers for any increase of
+loss rate caused by possible additional unexpected losses during the recovery period.
+191. For the purpose of ensuring that the LGD in-default is higher than the ELBE, or is in
+exceptional cases equal to the ELBE for individual exposures, in accordance with Article
+54(2)(d) of the RTS on IRB assessment methodology institutions should analyse and correct
+the LGD in-default in those situations where the ELBE was obtained using specific credit risk
+adjustments, in accordance with paragraph 186, and is above the LGD in-default obtained 
+through direct estimation in accordance with Article 54(1)(a) of the RTS on IRB assessment
+methodology.
+192. To the extent that the reasons for overriding the outputs of ELBE estimation are relevant
+also to LGD in-default a consistent override should also be applied to the assignment of LGD
+in-default in such a way that the add-on to the ELBE covers for any increase of loss rate caused
+by possible additional unexpected losses during the recovery period in accordance with
+Article 181(1)(h) of Regulation (EU) No 575/2013.
+193. Irrespective of which of the two approaches referred to in points (a) and (b) of Article
+54(1)(a) of the RTS on IRB assessment methodology is used for the purposes of estimating
+LGD in-default institutions should document separately all of the following:
+(a) the break-down of the LGD in-default into its components: the ELBE and the add-on;
+(b) the break-down of the add-on into all of the following components:
+(i) the downturn conditions component calibrated on the downturn adjustment to the
+long-run average LGD as specified in paragraph 189;
+(ii) the MoC component, referred to in section 4.4;
+(iii) any component covering for potential additional unexpected losses during the
+recovery period referred to in Article 181 (1)(h) of Regulation (EU) No 575/2013; this
+component should only be included in exceptional circumstances where the potential
+additional losses are not sufficiently reflected in the components referred to in points
+(i) and (ii).
+8 Application of risk parameters
+194. In the application of the PD or LGD model and where institutions receive new information
+with respect to a relevant risk driver or rating criterion, they should take this information into
+account in the rating assignment in a timely manner, in particular by ensuring both of the
+following:
+(a) that the relevant IT systems are updated as soon as possible and that the corresponding
+rating and PD or LGD assignment is reviewed as soon as possible;
+(b) where the new information relates to the default of an obligor, that the PD of the obligor
+is set to 1 in all relevant IT systems in a timely manner and in accordance with paragraph
+108 of the Guidelines on the application of the definition of default under Article 178 of
+Regulation (EU) No 575/2013.
+8.1 Conservatism in the application of risk parameters
+195. For the purpose of Article 171(2) of Regulation (EU) No 575/2013 institutions should apply
+additional conservatism to the outcomes of the rating assignment where any deficiencies are
+identified related to the implementation of the model in the IT system or to the process of
+assignment of risk parameters to obligors or facilities in the current portfolio (application of
+risk parameters), especially when those deficiencies relate to data used in the rating
+assignment process. They should do so by establishing a framework that consists of the
+following phases:
+(a) identification of deficiencies of implementation of the model in the IT system or
+application of risk parameters;
+(b) specification of the form of conservatism to be applied and quantification of the
+appropriate level of conservatism;
+(c) monitoring of the deficiencies and correcting them;
+(d) documentation.
+196. For the purpose of paragraph 195(a) institutions should have a robust process for
+identifying all implementation and application deficiencies in the assignment process,
+whereby each deficiency leads to additional conservative treatment in the affected
+assignment to a grade or pool. Institutions should consider at least the following triggers for
+additional conservatism:
+(a) missing data in the application portfolio; 
+(b) missing updates of financial statements or credit bureau data as referred to in paragraph
+59(h);
+(c) outdated ratings in the application portfolio; where outdated rating should be understood
+as specified in Article 25(2)(b) of the RTS on IRB methodology;
+(d) missing ratings, whereby an exposure is considered as being within the scope of
+application of the IRB model but is not rated by it.
+197. For the purpose of paragraph 195(b) institutions should ensure that the occurrence of any
+of the triggers referred to in paragraph 196 results in the application of additional
+conservatism to the risk parameter for the purpose of the calculation of risk-weighted
+exposure amounts. Where more than one trigger occurs, the estimate should be more
+conservative. The additional conservatism related to each trigger should be proportionate to
+the uncertainty in the estimated risk parameter introduced by the trigger.
+198. Institutions should consider the overall impact of the identified deficiencies and the
+resulting conservatism at the level of portfolio covered with the relevant model on the
+soundness of the assignments to grades or pools and ensure that the own funds requirements
+are not distorted by the necessity of excessive adjustments.
+199. For the purpose of paragraph 195(c) institutions should regularly monitor the
+implementation and application deficiencies and the levels of additional conservatism applied
+in relation to them. Whenever possible, institutions should take steps to address the
+identified deficiencies. Following its assessment, the institution should develop a plan to
+rectify the deficiencies within a reasonable timeframe, taking into consideration the
+magnitude of the impact on the own funds requirements.
+200. For the purpose of paragraph 195(d) institutions should specify adequate manuals and
+procedure for applying additional conservatism and should document the process applied in
+addressing implementation and application deficiencies. Such documentation should contain
+at least the triggers considered and the effects that the activation of such triggers had on the
+final assignment to a grade or pool, the level of risk parameter and on the own funds
+requirements.
+8.2 Human judgement in the application of risk parameters
+201. Institutions may use human judgement in the application of the model in the following
+cases:
+(a) in the application of the qualitative variables used within the model;
+(b) via overrides of the inputs of the rating assignment process;
+(c) via overrides of the outputs of the rating assignment process.
+202. Institutions should specify clear criteria for the use of qualitative model inputs and they
+should ensure a consistent application of such inputs by all relevant personnel and a
+consistent assignment of obligors or facilities posing similar risk to the same grade or pool as
+required by Article 171(1)(a) of Regulation (EU) No 575/2013.
+203. For the purpose of Article 172(3) of Regulation (EU) No 575/2013 institutions should
+specify the policies and criteria for the use of overrides in the rating assignment process.
+These policies should refer both to possible overrides of inputs and outputs of such process
+and should be specified in a conservative manner such that the scale of conservative
+overrides should not be limited. In contrast, the scale of potential decreases of the estimates
+resulting from the model, either by overriding the inputs or outputs of the rating assignment
+process, should be limited. In applying the overrides institutions should take into account all
+relevant and up-to-date information.
+204. Institutions should document the scale and rationale of each override. Wherever possible
+institutions should specify a predefined list of possible justifications of the overrides to
+choose from. Institutions should also store information on the date of override and the
+person that performed and approved it.
+205. Institutions should regularly monitor the level and justifications for overrides of inputs
+and outputs of the rating assignment process. They should specify in their policies the
+maximum acceptable rate of overrides for each model. Where those maximum levels are
+breached, adequate measures should be taken by the institution. The rates of overrides
+should be specified and monitored at the level of calibration segment. Where there is a high
+number of overrides institutions should adopt adequate measures to improve the model.
+206. Institutions should regularly analyse the performance of exposures in relation to which
+an override of input or output of the rating assignment process has been performed in
+accordance with Article 172(3) of Regulation (EU) No 575/2013.
+207. Institutions should regularly assess the performance of the model before and after the
+overrides of outputs of the rating assignment process. Where the assessment concludes that
+the use of overrides significantly decreased the model’s capacity to accurately quantify the
+risk parameters (‘predictive power of the model’), institutions should adopt adequate
+measures to ensure the correct application of overrides.
+8.3 Use of internal ratings and default and loss estimates
+208. In accordance with Article 144(1)(b) of Regulation (EU) No 575/2013 and Articles 18 to 21
+of the RTS on IRB assessment methodology institutions should use the same estimates of risk
+parameters for the purpose of own funds requirements calculation and for internal purposes,
+including risk management and decision-making processes, unless all of the following
+conditions are met:
+(a) the deviation is justified and appropriate for the specific area of use;
+(b) the deviation does not lead to a change in rank ordering in the assignment of obligors or
+facilities to grades and pools within a calibration segment other than within each grade or
+pool;
+(c) the deviation is due to the use of parameters for internal purposes without consideration
+of the MoC, without regulatory floors, without downturn adjustment in the case of LGD
+estimates or is due to the use of a different calibration method, which may entail
+specifying different calibration segments.
+209. For the purpose of paragraph 208 it may also be considered adequate to group
+continuous risk parameter estimates into homogenous ranks for internal purposes.
+210. Where institutions use for internal purposes estimates of risk parameters that are
+different from those used in the calculation of own funds requirements they should
+periodically reflect this in their internal reporting to senior management by providing
+information on both sets of parameters. In any case internal reporting should include all
+elements specified in Article 189(3) of Regulation (EU) No 575/2013 based on the estimates of
+risk parameters used for the purpose of calculation of own funds requirements.
+8.4 Calculation of IRB shortfall or excess
+211. For the purpose of this chapter the difference between, on the one hand, general and
+specific credit risk adjustments, additional value adjustments and other own funds reductions
+relating to these exposures and, on the other hand, expected loss amount in accordance with
+Article 159 of Regulation (EU) No 575/2013 should be considered IRB shortfall, if negative,
+and IRB excess, if positive.
+212. Where the calculation for the overall non-defaulted portfolio referred to in Article 159 of
+Regulation (EU) No 575/2013 results in an IRB excess, institutions may use this IRB excess to
+cover for any IRB shortfall from the calculation carried out in accordance with that Article for
+the overall defaulted portfolio.
+213. For the purposes of adding any IRB excess to Tier 2 in accordance with Article 62 (d) of
+Regulation (EU) No 575/2013, where the calculation referred to in Article 159 of Regulation
+(EU) No 575/2013 results in an IRB excess for both the defaulted and the non-defaulted
+portfolio, the sum of those two IRB excesses should be considered and added to Tier 2 in
+accordance with the limit referred to in Article 62(d) of Regulation (EU) No 575/2013.
+214. For the purposes of Article 159 of Regulation (EU) No 575/2013 institutions should not
+include partial write-offs in the calculation of general and specific credit risk adjustments.
+However, as per Article 166(1) of Regulation (EU) No 575/2013, the calculation of the
+expected loss amount for the application of Articles 158 and 159 of Regulation (EU) No
+575/2013 should be based on the exposure value gross of value adjustments but net of writeoffs. 
+9 Review of estimates
+215. Institutions should specify internal policies for changes of models and estimates of risk
+parameters used within a rating system. Such policies should provide that changes in the
+models should be made as a result of at least the following:
+(a) regular review of estimates;
+(b) independent validation;
+(c) changes in the legal environment;
+(d) internal audit review;
+(e) competent authority review.
+216. Where material deficiencies are identified as a result of the procedures referred to in
+paragraph 215 institutions should take appropriate actions depending on the severity of the
+deficiency and apply a MoC in accordance with section 4.4.3.
+217. For the purpose of regular reviews of estimates, institutions should have a framework in
+place which includes at least the following elements:
+(a) a minimum scope and frequency of analyses to be performed, including predefined
+metrics chosen by the institution to test data representativeness, model performance, its
+predictive power and stability;
+(b) predefined standards, including predefined thresholds and significance levels for the
+relevant metrics;
+(c) predefined actions to be taken in case of adverse results of the review, depending on the
+severity of the deficiency.
+In their regular reviews of estimates institutions may rely on the results of independent
+validation where such results are up to date.
+218. The reviews of estimates to be performed at least annually in accordance with Article
+179(1)(c) of Regulation (EU) No 575/2013 should be performed taking into account the
+metrics, standards and thresholds defined by the institution in accordance with paragraph
+217. The scope of such reviews should comprise at least the following elements:
+(a) an analysis of data representativeness, including all of the following:
+(i) an analysis of potential differences between the RDS used to quantify the risk
+parameter and the application portfolio, including the analysis of any changes in
+the portfolio or any structural breaks, in the manners of analysing the
+representativeness described in section 4.2.4;
+(ii) an analysis of potential differences between the RDS used to develop the model
+and the application portfolio; for this purpose institutions should:
+ perform the analysis set out in paragraphs 24, 25, and 26;
+ consider that data used for model development is sufficiently
+representative in terms of points (a) and (b) of paragraph 21 if the
+performance of the model in the sense of paragraph 218(b) is sound;
+ perform the analysis set out in paragraphs 22 and 23 where the
+performance of the model in the sense of paragraph 218(b) is
+deteriorating;
+(b) an analysis of the performance of the model and its stability over time, which should have
+both of the following characteristics:
+(i) the analysis should identify any potential deterioration of the model
+performance, including the model’s discriminatory power, through the
+comparison of its performance at the time of the development against its
+performance on each subsequent observation period of the extended data set as
+well as against the predefined thresholds; this analysis should be performed on
+relevant subsets, for instance with and without delinquency status in the case of
+PD estimates, or for various recovery scenarios in the case of LGD estimates;
+(ii) the analysis should be performed with regard to the whole application portfolio,
+without any data adjustments or exclusions performed in model development;
+for comparison purposes, the performance at the time of development should
+also be obtained for the whole application portfolio, prior to any data
+adjustments or exclusions;
+(c) an analysis of the predictive power of the model, including at least:
+(i) an analysis of whether the inclusion of the most recent data in the dataset used
+to estimate risk parameters leads to materially different risk estimates and in
+particular:
+ for PD, whether including the most recent data leads to a significant
+change in the long-run average default rate; this analysis should take into
+account the appropriate redefinition of the period of likely range of 
+variability of default rates and of the mix of good and bad years, if
+necessary;
+ for LGD, whether including the most recent data leads to a significant
+change in the long-run average LGD or downturn LGD;
+(ii) a back-testing analysis, which should include a comparison of the estimates used
+for the calculation of own funds requirements against observed outcomes for
+each grade or pool; for this purpose institutions may take into account the results
+of back-testing performed as part of the internal validation in accordance with
+Article 185(b) of Regulation (EU) No 575/2013 or they may perform additional
+tests, for instance with regard to a different timeframe of the dataset.
+219. Institutions should specify conditions under which the analyses referred to in paragraph
+218 should be performed more frequently than annually, such as major changes in the risk
+profile of the institution, credit policies or relevant IT systems. Institutions should perform the
+review of the PD or LGD model whenever they observe significant change in economic
+conditions as compared with the economic conditions underlying the dataset used for the
+purpose of model development.
+220. For the purpose of performing the tasks referred to in Article 190(2) of Regulation (EU) No
+575/2013 institutions should define a regular cycle for the full review of the rating systems,
+taking into consideration their materiality, and covering all aspects of model development,
+quantification of risk parameters and, where applicable, the estimation of model
+components. This review should include all of the following:
+(a) a review of the existing and potential risk drivers and an assessment of their significance
+based on the predefined standards of review referred to in paragraph 217;
+(b) an assessment of the modelling approach, its conceptual soundness, the fulfilment of the
+modelling assumptions and alternative approaches.
+Where the results of this review recommend changes to model design, appropriate actions
+should be taken following the results from this analysis.
+221. For the purpose of the review specified in paragraphs 217 to 220 institutions should apply
+consistent policies for data adjustments and exclusions and ensure that any differences in the
+policies applied to the relevant datasets are justified and do not distort the results of the
+review.

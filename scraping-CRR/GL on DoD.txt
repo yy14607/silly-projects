@@ -1,0 +1,968 @@
+1 Compliance and reporting obligations
+Status of these guidelines
+1. This document contains guidelines issued pursuant to Article 16 of Regulation (EU) No
+1093/2010
+. In accordance with Article 16(3) of Regulation (EU) No 1093/2010, competent
+authorities and financial institutions must make every effort to comply with the guidelines.
+2. Guidelines set the EBA view of appropriate supervisory practices within the European System
+of Financial Supervision or of how Union law should be applied in a particular area.
+Competent authorities as defined in Article 4(2) of Regulation (EU) No 1093/2010 to whom
+guidelines apply should comply by incorporating them into their practices as appropriate (e.g.
+by amending their legal framework or their supervisory processes), including where guidelines
+are directed primarily at institutions.
+Reporting requirements
+3. According to Article 16(3) of Regulation (EU) No 1093/2010, competent authorities must
+notify the EBA as to whether they comply or intend to comply with these guidelines, or
+otherwise with reasons for non-compliance, by ([dd.mm.yyyy]). In the absence of any
+notification by this deadline, competent authorities will be considered by the EBA to be non-compliant. Notifications should be sent by submitting the form available on the EBA website
+to compliance@eba.europa.eu with the reference ‘EBA/GL/201x/xx’. Notifications should be
+submitted by persons with appropriate authority to report compliance on behalf of their
+competent authorities. Any change in the status of compliance must also be reported to EBA.
+4. Notifications will be published on the EBA website, in line with Article 16(3).
+
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+19
+2 Subject matter, scope and definitions
+Subject matter
+5. These guidelines specify the requirements on the application of Article 178 of Regulation (EU)
+No 575/2013 on the definition of default, in accordance with the mandate conferred to the
+EBA in Article 178(7) of that Regulation.
+Scope of application
+6. These guidelines apply in relation to both of the following:
+(a) the Internal Ratings Based Approach (IRB Approach) in accordance with Part Three,
+Title II, Chapter 3 of Regulation (EU) No 575/2013;
+(b) the Standardised Approach for credit risk by virtue of the reference to Article 178 in
+Article 127 of Regulation (EU) No 575/2013.
+7. Institutions that have received permission to use the IRB Approach should apply the
+requirements set out in these guidelines for the IRB Approach to all exposures. Where those
+institutions have received prior permission to permanently use the Standardised Approach in
+accordance with Article 150 of Regulation (EU) No 575/2013, or permission to implement the
+IRB Approach sequentially in accordance with Article 148 of that Regulation, may apply the
+requirements set out in these guidelines for the Standardised Approach for the relevant
+exposures under permanent partial use of the Standardised Approach or included in the
+sequential implementation plan.
+Addressees
+8. These guidelines are addressed to competent authorities as defined in point (i) of Article 4(2)
+of Regulation (EU) No 1093/2010 and to financial institutions as defined in Article 4(1) of
+Regulation No 1093/2010.
+Definitions
+9. Unless otherwise specified, terms used and defined in Regulation (EU) No 575/2013 and
+Directive (EU) 36/2013 have the same meaning in these guidelines. 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+20
+3 Implementation
+Date of application
+10. These guidelines apply from 1 January 2021, therefore institutions should incorporate the
+requirements of these guidelines in their internal procedures and IT systems by that time, but
+competent authorities may accelerate the timeline of this transition at their discretion.
+First application of the Guidelines by IRB institutions
+11. In order to apply these guidelines for the first time, institutions that use the IRB Approach
+should assess and accordingly adjust, where necessary, their rating systems so that the
+estimates of risk parameters reflect the new definition of default according to these
+guidelines by applying the following:
+(a) where possible, adjust the historical data based on the new definition of default
+according to these guidelines, including in particular as a result of the materiality
+thresholds for past due credit obligations referred to in point (d) of Article 178(2) of
+Regulation (EU) No 575/2013;
+(b) assess the materiality of impact on all risk parameters and own funds requirements of
+the new definition of default according to these guidelines and compared to the
+previous definition, where applicable, after the relevant adjustments in historical
+data;
+(c) include an additional margin of conservatism in their rating systems in order to
+account for the possible distortions of risk estimates resulting from the inconsistent
+definition of default in the historical data used for modelling purposes.
+12. The changes referred to in paragraph 11, which are applied to the rating systems as a result of
+the application of these guidelines, are required to be verified by the internal validation
+function and classified according to Commission Delegated Regulation (EU) No 529/2014, and,
+depending on this classification, they are required to be notified or approved by the relevant
+competent authority.
+13. Institutions that use the IRB Approach, and which need to obtain prior permission from
+competent authorities in accordance with Article 143 of Regulation (EU) No 575/2013 and
+Commission Delegated Regulation (EU) No 529/2014 in order to incorporate these
+guidelines by the deadline referred to in paragraph 10, should agree with their competent
+
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+21
+authorities the final deadline for submitting the application for the approval of changes in the
+definition of default.
+14. After IRB institutions have started collecting data according to the new definition of default as
+provided in these guidelines, in the course of their regular revision of risk estimates referred
+to in Article 179(1)(c) of Regulation (EU) No 575/2013, those institutions should extend or,
+where justified, move the window of historical data used for the risk quantification to include
+new data. Until an adequate time period with homogenous default definition is reached,
+those IRB institutions, during their regular revisions of the risk parameter estimates, should
+assess the adequacy of the level of the margin of conservatism referred to in point (b) of
+paragraph 11.
+Repeal
+15. Sections 3.3.2.1. and 3.4.4. of the CEBS Guidelines on the implementation, validation and
+assessment of Advanced Measurement (AMA) and Internal Ratings Based (IRB) Approaches
+(GL10) published on 4 April 2006 are repealed with effect from 1 January 2021.
+4 Past due criterion in the identification of default
+Counting of days past due
+16. For the purposes of the application of point (b) of Article 178(1) of Regulation (EU) No
+575/2013, where any amount of principal, interest or fee has not been paid at the date it was
+due, institutions should recognise this as the credit obligation past due. Where there are
+modifications of the schedule of credit obligations, as referred to in point (e) of Article 178(2)
+of Regulation (EU) No 575/2013, the institution’s policies should clarify that the counting of
+days past due should be based on the modified schedule of payments.
+17. Where the credit arrangement explicitly allows the obligor to change the schedule, suspend
+or postpone the payments under certain conditions and the obligor acts within the rights
+granted in the contract, the changed, suspended or postponed instalments should not be
+considered past due, but the counting of days past due should be based on the new schedule
+once it is specified. Nevertheless if the obligor changes the schedule, suspends or postpones
+the payments, the institutions should analyse the reasons for such a change and assess the
+possible indications of unlikeliness to pay, in accordance with Articles 178(1) and (3) of
+Regulation (EU) No 575/2013 and Section 5 of these guidelines.
+18. Where the repayment of the obligation is suspended because of a law allowing this option or
+other legal restrictions, the counting of days past due should also be suspended during that 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+22
+period. Nevertheless, in such situations, institutions should analyse, where possible, the
+reasons for exercising the option for such a suspension and should assess the possible
+indications of unlikeliness to pay, in accordance with Articles 178(1) and (3) of Regulation (EU)
+No 575/2013 and Section 5 of these guidelines.
+19. Where the repayment of the obligation is the subject of a dispute between the obligor and
+the institution, the counting of days past due may be suspended until the dispute is resolved,
+where at least one of the following conditions is met:
+(a) the dispute between the obligor and the institution over the existence or amount of
+the credit obligation has been introduced to a court or another formal procedure
+performed by a dedicated external body that results in a binding ruling in accordance
+with the applicable legal framework in the relevant jurisdiction;
+(b) in the specific case of leasing, a formal complaint has been directed to the institution
+about the object of the contract and the merit of the complaint has been confirmed
+by independent internal audit, internal validation or another comparable
+independent auditing unit.
+20. Where the obligor changes due to an event such as a merger or acquisition of the obligor or
+any other similar transaction, the counting of days past due should start from the moment a
+different person or entity becomes obliged to pay the obligation. The counting of days past
+due is, instead, unaffected by a change in the obligor’s name.
+21. The calculation of the sum of all amounts past due that are related to any credit obligation of
+the obligor to the institution, parent undertaking or any of its subsidiaries to this obligor and
+which institutions are required to calculate for the purpose of comparison with the
+materiality threshold set by the competent authority in accordance with point (d) of Article
+178(2) of Regulation (EU) No 575/2013 should be performed with a frequency allowing timely
+identification of default. Institutions should ensure that the information about the days past
+due and default is up-to-date whenever it’s being used for decision making, internal risk
+management, internal or external reporting and the own funds requirements calculation
+processes. Where institutions calculate days past due less often than daily, they should
+ensure that the date of default is identified as the date when the past due criterion has
+actually been fulfilled.
+22. The classification of the obligor to a defaulted status should not be subject to additional
+expert judgement; once the obligor meets the past due criterion all exposures to that obligor
+are considered defaulted, unless either of the following conditions is met:
+(a) the exposures are eligible as retail exposures and the institution applies the default
+definition at individual credit facility level;
+(b) a so called ‘technical past due situation’ is considered to have occurred, in accordance
+with paragraph 23. 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+23
+Technical past due situation
+23. A technical past due situation should only be considered to have occurred in any of the
+following cases:
+(a) where an institution identifies that the defaulted status was a result of data or system
+error of the institution, including manual errors of standardised processes but
+excluding wrong credit decisions;
+(b) where an institution identifies that the defaulted status was a result of the non-execution, defective or late execution of the payment transaction ordered by the
+obligor or where there is evidence that the payment was unsuccessful due to the
+failure of the payment system;
+(c) where due to the nature of the transaction there is a time lag between the receipt of
+the payment by an institution and the allocation of that payment to the relevant
+account, so that the payment was made before the 90 days and the crediting in the
+client’s account took place after the 90 days past due;
+(d) in the specific case of factoring arrangements where the purchased receivables are
+recorded on the balance sheet of the institution and the materiality threshold set by
+the competent authority in accordance with point (d) of Article 178(2) of Regulation
+(EU) No 575/2013 is breached but none of the receivables to the obligor is past due
+more than 30 days.
+24. Technical past due situations should not be considered as defaults in accordance with Article
+178 of Regulation (EU) No 575/2013. All detected errors that led to technical past due
+situation should be rectified by institutions in the shortest timeframe possible.
+In the case of institutions that use the IRB Approach, technical past due situations should be
+removed from the reference data set of defaulted exposures for the purpose of estimation of
+risk parameters.
+Exposures to central governments, local authorities and public
+sector entities
+25. Institutions may apply specific treatment for exposures to central governments, local
+authorities and public sector entities where all of the following conditions are met:
+(a) the contract is related to the supply of goods or services, where the administrative
+procedures require certain controls related to the execution of the contract before
+the payment can be made; this applies in particular to factoring exposures or similar
+types of arrangements but does not apply to instruments such as bonds;
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+24
+(b) apart from the delay in payment no other indications of unlikeliness to pay as
+specified in accordance with Article 178(1)(a) and 178(3) of Regulation (EU) No
+575/2013 and these guidelines apply, the financial situation of the obligor is sound
+and there are no reasonable concerns that the obligation might not be paid in full,
+including any overdue interest where relevant;
+(c) the obligation is past due not longer than 180 days.
+26. Institutions that decide to apply the specific treatment referred to in paragraph 25 should
+apply all of the following:
+(a) these exposures should not be included in the calculation of the materiality threshold
+for other exposures to this obligor;
+(b) they should not be considered as defaults in the sense of Article 178 of Regulation
+(EU) No 575/2013;
+(c) they should be clearly documented as exposures subject to the specific treatment.
+Specific provisions applicable to factoring and purchased
+receivables
+27. Where there are factoring arrangements whereby the ceded receivables are not recognised
+on the balance sheet of the factor and the factor is liable directly to the client up to a certain
+agreed percentage, the counting of days past due should commence from when the factoring
+account is in debit, i.e. from when the advances paid for the receivables exceed the
+percentage agreed between the factor and the client. For the purpose of determining items of
+the client of a factor that are past due, institutions should apply both of the following:
+(a) compare the sum of the amount of the factoring account that is in debit and all other
+past due obligations of the client recorded in the balance sheet of the factor, against
+the absolute component of the materiality threshold set by the competent authority
+in accordance with point (d) of Article 178(2) of Regulation (EU) No 575/2013;
+(b) compare the relation between the sum described in point (a) and the total amount of
+current value of the factoring account, i.e. the value of advances paid for the
+receivables and all other on-balance sheet exposures related with the credit
+obligations of the client, against the relative component of the materiality threshold
+set by the competent authority in accordance with point (d) of Article 178(2) of
+Regulation (EU) No 575/2013.
+28. Where there are factoring arrangements where the purchased receivables are recognised on
+the balance sheet of the factor and the factor has exposures to the debtors of the client, the
+counting of days past due should commence when the payment for a single receivable 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+25
+becomes due. In this situation, for institutions that use the IRB Approach, by virtue of the fact
+that the ceded receivables are purchased receivables, where they meet the requirements of
+154(5) of Regulation (EU) No 575/2013 or in the case of purchased corporate receivables the
+requirements of Article 153(6) of Regulation (EU) No 575/2013, the default definition may be
+applied as for retail exposures in accordance with Section 9 of these guidelines.
+29. Where the institution recognises events related to dilution risk of purchased receivables as
+defined in point (53) of Article 4(1) of Regulation (EU) No 575/2013, these events should not
+be considered as leading to the default of the obligor. Where the amount of receivable has
+been reduced as a result of events related to dilution risk such as discounts, deductions,
+netting or credit notes issued by the seller the reduced amount of receivable should be
+included in the calculation of days past due. Where there is a dispute between the obligor and
+the seller and such event is recognised as related to dilution risk the counting of days past due
+should be suspended until the dispute is resolved.
+30. Events recognised as related to dilution risk and hence excluded from the identification of
+default should be included in the calculation of own funds requirements or internal capital for
+dilution risk. Where institutions recognise significant number of events related to dilution risk,
+they should analyse and document the reasons for such events and assess the possible
+indications of unlikeliness to pay, in accordance with Articles 178(1) and (3) of Regulation (EU)
+No 575/2013 and Section 5 of these guidelines.
+31. Where the obligor has not been adequately informed about the cession of the receivable by
+the factor’s client and the institution has evidence that the payment for the receivable has
+been made to the client, the institution should not consider the receivable to be past due.
+Where the obligor has been adequately informed about the cession of the receivable but has
+nevertheless made the payment to the client, the institution should continue counting the
+days past due according to the conditions of the receivable.
+32. In the specific case of undisclosed factoring arrangements, where the obligors are not
+informed about the cession of the receivables but the purchased receivables are recognised
+on the balance sheet of the factor, the counting of days past due should commence from the
+moment agreed with the client when the payments made by the obligors should be
+transferred from the client to the factor.
+Setting the materiality threshold
+33. Competent authorities should notify the EBA of the levels of the materiality thresholds that
+they set in their respective jurisdiction in accordance with point (d) of Article 178(2) of
+Regulation (EU) No 575/2013. After the entry into force of the regulatory technical standards
+developed in accordance with Article 178(6) of Regulation (EU) No 575/2013, where
+competent authorities set the relative component of the materiality threshold at a level
+different than the 1% referred to in those regulatory technical standards, they should provide
+the justification for this different level of the threshold to the EBA.
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+26
+34. Institutions should apply the materiality threshold for past due credit obligations set by their
+competent authorities as referred to in point (d) of Article 178(2) of Regulation (EU) No
+575/2013. Institutions may identify defaults on the basis of a lower threshold if they can
+demonstrate that this lower threshold is a relevant indication of unlikeliness to pay and does
+not lead to an excessive number of defaults that return to non-defaulted status shortly after
+being recognised as defaulted or decrease of capital requirements. In this case institutions
+should record in their databases the information on the trigger of default as an additional
+specified indication of unlikeliness to pay.
+5 Indications of unlikeliness to pay
+Non-accrued status
+35. For the purposes of unlikeliness to pay as referred to in point (a) of Article 178(3) of
+Regulation (EU) No 575/2013, institutions should consider that an obligor is unlikely to pay
+where interest related to credit obligations is no longer recognised in the income statement
+of the institution due to the decrease of the credit quality of the obligation.
+Specific credit risk adjustments (SCRA)
+36. For the purposes of unlikeliness to pay as referred to in point (b) of Article 178(3) of
+Regulation (EU) No 575/2013, all of the following specific credit risk adjustments (SCRA)
+should be considered to be a result of a significant perceived decline in the credit quality of a
+credit obligation and hence should be treated as an indication of unlikeliness to pay:
+(a) losses recognised in the profit or loss account for instruments measured at fair value
+that represent credit risk impairment under the applicable accounting framework;
+(b) losses as a result of current or past events affecting a significant individual exposure
+or exposures that are not individually significant which are individually or collectively
+assessed.
+37. The SCRA that cover the losses for which historical experience, adjusted on the basis of
+current observable data, indicate that the loss has occurred but the institution is not yet
+aware which individual exposure has suffered these losses (‘incurred but not reported
+losses’), should not be considered an indication of unlikeliness to pay of a specific obligor.
+38. Where the institution treats an exposure as impaired such a situation should be considered an
+additional indication of unlikeliness to pay and hence the obligor should be considered
+defaulted regardless of whether there are any SCRA assigned to this exposure. Where in
+accordance with the applicable accounting framework in the case of incurred but not 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+27
+reported losses exposures are recognised as impaired, these situations should not be treated
+as an indication of unlikeliness to pay.
+39. Where the institution treats an exposure as credit-impaired under IFRS 9, i.e. assigns it to
+Stage 3 as defined in IFRS 9 Financial Instruments, published by the IASB in July 2014, such
+exposure should be considered defaulted, except where the exposure has been considered
+credit-impaired due to the delay in payment and either or both of the following conditions
+are met:
+(a) the competent authorities have replaced the 90 days past due with 180 days past due
+in accordance with point (b) of Article 178(1) of Regulation EU (No) 575/2013 and this
+longer period is not used for the purpose of recognition of credit-impairment;
+(b) the materiality threshold referred to in Article 178(2)(d) of Regulation (EU) No
+575/2013 has not been breached;
+(c) the exposure has been recognised as a technical past due situation in accordance with
+paragraph 23;
+(d) the exposure meets the conditions of paragraph 25.
+40. Where the institution uses both IFRS 9 and another accounting framework it should choose
+whether to classify exposures as defaulted in accordance with paragraphs 36 to 38 or in
+accordance with paragraph 39. Once this choice is made it should be applied consistently over
+time.
+Sale of the credit obligation
+41. For the purposes of unlikeliness to pay as referred to in point (c) of Article 178(3) of
+Regulation (EU) No 575/2013, institutions should take into account both the character and
+materiality of the loss related to the sale of credit obligations, in accordance with the
+following paragraphs. Transactions of traditional securitisation with significant risk transfer
+and any intragroup sales of credit obligations should be considered sale of credit obligations.
+42. Institutions should analyse the reasons for the sale of credit obligations and the reasons for
+any losses recognised thereby. Where the reasons for the sale of credit obligations were not
+related to credit risk, such as where there is the need to increase the liquidity of the
+institution or there is a change in business strategy, and the institution does not perceive the
+credit quality of those obligations as declined, the economic loss related with the sale of
+those obligations should be considered not credit-related. In that case the sale should not be
+considered an indication of default even where the loss is material, on condition of the
+appropriate, documented justification of the treatment of the sale loss as not credit-related.
+Institutions may, in particular, consider the loss on the sale of credit obligations as non-credit
+related where the assets subject to the sale are publicly traded assets and measured at fair
+value.
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+28
+43. Where, however, the loss on the sale of credit obligations is related to the credit quality of
+the obligations themselves, in particular where the institution sells the credit obligations due
+to the decrease in their quality, the institution should analyse the materiality of the economic
+loss and, where the economic loss is material, this should be considered an indication of
+default.
+44. Institutions should set a threshold for the credit-related economic loss related with the sale of
+credit obligations to be considered material, which should be calculated according to the
+following formula, and should not be higher than 5%:
+L = (E-P)/E
+where:
+L is the economic loss related with the sale of credit obligations;
+E is the total outstanding amount of the obligations subject to the sale, including interest
+and fees;
+P is the price agreed for the sold obligations.
+45. In order to assess the materiality of the overall economic loss related with the sale of credit
+obligations, institutions should calculate the economic loss and compare it to the threshold
+referred to in paragraph 44. Where the economic loss is higher than this threshold they
+should consider the credit obligations defaulted.
+46. The sale of credit obligations may be performed either before or after the default. In the case
+of institutions that use the IRB Approach, regardless of the moment of the sale, if the sale was
+related with a material credit-related economic loss, the information about the loss should be
+adequately recorded and stored for the purpose of the estimation of risk parameters.
+47. If the sale of a credit obligation at a material credit-related economic loss occurred before the
+identification of default on that exposure, the moment of sale should be considered the
+moment of default. In the case of a partial sale of the total obligations of an obligor where the
+sale is associated to a material credit-related economic loss, all the remaining exposures to
+this obligor should be treated as defaulted, unless the exposures are eligible as retail
+exposures and the institution applies the default definition at facility level.
+48. In the case of a sale of a portfolio of exposures the treatment of individual credit obligations
+within this portfolio should be determined in accordance with the manner the price for the
+portfolio was set. Where the price for the total portfolio was determined by specifying the
+discount on particular credit obligations, the materiality of credit-related economic loss
+should be assessed individually for each exposure within the portfolio. Where however the
+price was set only at the portfolio level, the materiality of credit-related economic loss may be
+assessed at the portfolio level and in that case, if the threshold specified in paragraph 44 is 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+29
+breached, all credit obligations within this portfolio should be treated as defaulted at the
+moment of the sale.
+Distressed restructuring
+49. For the purposes of unlikeliness to pay as referred to in point (d) of Article 178(3) of
+Regulation (EU) No 575/2013, a distressed restructuring should be considered to have
+occurred when concessions have been extended towards a debtor facing or about to face
+difficulties in meeting its financial commitments as specified in paragraphs 163-167 and 172-
+174 of Annex V Commission Implementing Regulation (EU) No 680/2014 of 16 April 2014 as
+amended by Commission Implementing Regulation (EU) 2015/227.
+50. Given that, as referred to in point (d) of Article 178(3) of Regulation (EU) No 575/2013, the
+obligor should be considered defaulted where the distressed restructuring is likely to result in
+a diminished financial obligation, where considering forborne exposures, the obligor should
+be classified as defaulted only where the relevant forbearance measures are likely to result in
+a diminished financial obligation.
+51. Institutions should set a threshold for the diminished financial obligation that is considered to
+be caused by material forgiveness or postponement of principal, interest, or fees, and which
+should be calculated according to the following formula, and should not be higher than 1%:
+DO = (NPV0-NPV1)/NPV0
+where:
+DO is diminished financial obligation;
+NPV0 is net present value of cash flows (including unpaid interest and fees) expected
+under contractual obligations before the changes in terms and conditions of the contract
+discounted using the customer’s original effective interest rate;
+NPV1 is net present value of the cash flows expected based on the new arrangement
+discounted using the customer’s original effective interest rate.
+52. For the purposes of unlikeliness to pay as referred to in point (d) of Article 178(3) of
+Regulation (EU) No 575/2013, for each distressed restructuring, institutions should calculate
+the diminished financial obligation and compare it with the threshold referred to in paragraph
+51. Where the diminished financial obligation is higher than this threshold, the exposures
+should be considered defaulted.
+
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+30
+53. If however the diminished financial obligation is below the specified threshold, and in
+particular when the net present value of expected cash flows based on the distressed
+restructuring arrangement is higher than the net present value of expected cash flows before
+the changes in terms and conditions, institutions should assess such exposures for other
+possible indications of unlikeliness to pay. Where the institution has reasonable doubts with
+regard to the likeliness of repayment in full of the obligation according to the new
+arrangement in a timely manner, the obligor should be considered defaulted. The indicators
+that may suggest unlikeliness to pay include the following:
+(a) a large lumpsum payment envisaged at the end of the repayment schedule;
+(b) irregular repayment schedule where significantly lower payments are envisaged at
+the beginning of repayment schedule;
+(c) significant grace period at the beginning of the repayment schedule;
+(d) the exposures to the obligor have been subject to distressed restructuring more than
+once.
+54. Any concession extended to an obligor already in default, should lead to classify the obligor as
+a distressed restructuring. All exposures classified as forborne non-performing in accordance
+with Annex V of Commission Implementing Regulation (EU) No 680/2014 of 16 April 2014 as
+amended by Commission Implementing Regulation (EU) 2015/227 should be classified as
+default and subject to distressed restructuring.
+55. Where any of the modifications of the schedule of credit obligations referred to in point (e) of
+Article 178(2) of Regulation (EU) No 575/2013 is the result of financial difficulties of an
+obligor, institutions should also assess whether a distressed restructuring has taken place and
+whether an indication of unlikeliness to pay has occurred.
+Bankruptcy
+56. For the purposes of unlikeliness to pay as referred to in point (e) and (f) of Article 178(3) of
+Regulation (EU) No 575/2013, institutions should clearly specify in their internal policies what
+type of arrangement is treated as an order or as a protection similar to bankruptcy, taking
+into account all relevant legal frameworks as well as the following typical characteristics of
+such protection:
+(a) the protection scheme encompasses all creditors or all creditors with unsecured
+claims;
+(b) the terms and conditions of the protection scheme are approved by the court or other
+relevant public authority; 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+31
+(c) the terms and conditions of the protection scheme include a temporary suspension of
+payments or partial redemption of debt;
+(d) the measures involve some sort of control over the management of the company and
+its assets;
+(e) if the protection scheme fails, the company is likely to be liquidated.
+57. Institutions should treat all arrangements listed in Annex A to Regulation (EU) 2015/848 as
+an order or as a protection similar to bankruptcy.
+Other indications of unlikeliness to pay
+58. Institutions should specify in their internal policies and procedures other additional
+indications of unlikeliness to pay of an obligor, besides those specified in Article 178(3) of
+Regulation (EU) No 575/2013. Those additional indications should be specified per type of
+exposures, as defined in point (2) of Article 142(1) of Regulation (EU) No 575/2013, reflecting
+their specificities, and they should be specified for all business lines, legal entities or
+geographical locations. The occurrence of an additional indication of unlikeliness to pay
+should either result in an automatic reclassification to defaulted exposures or trigger a case-by-case assessment and may include indications based on internal or external information.
+59. The possible indications of unlikeliness to pay that could be considered by institutions on the
+basis of internal information include the following:
+(a) a borrower’s sources of recurring income are no longer available to meet the
+payments of instalments;
+(b) there are justified concerns about a borrower’s future ability to generate stable and
+sufficient cash flows;
+(c) the borrower’s overall leverage level has significantly increased or there are justified
+expectations of such changes to leverage;
+(d) the borrower has breached the covenants of a credit contract;
+(e) the institution has called any collateral including a guarantee;
+(f) for the exposures to an individual: default of a company fully owned by a single
+individual where this individual provided the institution with a personal guarantee for
+all obligations of a company;
+
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+32
+(g) for retail exposures where the default definition is applied at the level of an individual
+credit facility, the fact that a significant part of the total obligation of the obligor is in
+default;
+(h) the reporting of an exposure as non-performing in accordance with Annex V of
+Commission Implementing Regulation (EU) No 680/2014 of 16 April 2014 as amended
+by Commission Implementing Regulation (EU) 2015/227, except where competent
+authorities have replaced the 90 days past due with 180 days past due in accordance
+with point (b) of Article 178(1) of Regulation EU (No) 575/2013.
+60. Institutions should also take into account the information available in external databases,
+including credit registers, macroeconomic indicators and public information sources, including
+press articles and financial analyst’s reports. The indications of unlikeliness to pay that could
+be considered by institutions on the basis of external information include the following:
+(a) significant delays in payments to other creditors have been recorded in the relevant
+credit register;
+(b) a crisis of the sector in which the counterparty operates combined with a weak
+position of the counterparty in this sector;
+(c) disappearance of an active market for a financial asset because of the financial
+difficulties of the debtor;
+(d) an institution has information that a third party, in particular another institution, has
+filed for bankruptcy or similar protection of the obligor.
+61. When specifying the criteria for unlikeliness to pay, institutions should take into consideration
+the relations within the groups of connected clients as defined in point 39 of Article 4(1) of
+Regulation (EU) No 575/2013. In particular institutions should specify in their internal policies
+when the default of one obligor within the group of connected clients has a contagious effect
+on other entities within this group. Such specifications should be in line with the appropriate
+policies for the assignment of exposures to individual obligor to an obligor grade and to
+groups of connected clients in accordance with point (d) of Article 172(1) of Regulation (EU)
+No 575/2013. Where such criteria have not been specified for a non-standard situation, in the
+case of default of an obligor that is part of a group of connected clients, institutions should
+assess the potential unlikeliness to pay of all other entities within this group on a case-by-case
+basis.
+62. Where a financial asset was purchased or originated by an institution at a material discount
+institutions should assess whether that discount reflects the deteriorated credit quality of the
+obligor and whether there are any indications of default in accordance with these guidelines.
+The assessment of unlikeliness to pay should refer to the total amount owed by the obligor
+regardless of the price that the institution has paid for the asset. This assessment may be
+based on the due diligence performed before the purchase of the asset or on the analysis 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+33
+performed for the accounting purposes in order to determine whether the asset is creditimpaired.
+63. Institutions should have adequate policies and procedures to identify credit frauds. Typically
+when credit fraud is identified, the exposure is already defaulted on the basis of material
+delays in payment. However, if the credit fraud is identified before default has been
+recognised this should be treated as an additional indication of unlikeliness to pay.
+Governance processes regarding unlikeliness to pay
+64. Institutions should establish policies regarding the definition of default in order to ensure its
+consistent and effective application and in particular they should have clear policies and
+procedures on the application of the criteria for unlikeliness to pay as laid down in Article
+178(3) of Regulation (EU) No 575/2013 and all other indications of unlikeliness to pay as
+specified by the institution, covering all types of exposures as defined in point (2) of Article
+142(1) of Regulation (EU) No 575/2013, for all business lines, legal entities and geographical
+locations.
+65. With regard to each indication of unlikeliness to pay institutions should define the adequate
+methods of their identification, including the sources of information and frequency of
+monitoring. The sources of information should include both internal and external sources,
+including in particular relevant external databases and registers.
+6 Application of the definition of default in external data
+66. Institutions that use the IRB Approach and use external data for the purpose of estimation of
+risk parameters in accordance with Article 178(4) of Regulation (EU) No 575/2013 should
+apply the requirements specified in this section.
+67. For the purposes of Article 178(4) of Regulation (EU) No 575/2013 institutions should do all of
+the following:
+(a) verify whether the definition of default used in the external data is in line with Article
+178 of Regulation (EU) 575/2013;
+(b) verify whether the definition of default used in external data is consistent with the
+definition of default as implemented by the institution for the relevant portfolio of
+exposures, including in particular: the counting and number of days past due that
+triggers default, the structure and level of materiality threshold for past due credit
+obligations, the definition of distressed restructuring that triggers default, the type 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+34
+and level of specific credit risk adjustments that triggers default and the criteria to
+return to non-defaulted status;
+(c) document sources of external data, the default definition used in external data, the
+performed analysis and all identified differences.
+68. For each difference identified in the definition of default resulting from the assessment of
+paragraph 67, institutions should do all of the following:
+(a) assess whether the adjustment to the internal definition of default would lead to an
+increased or a decreased default rate or whether it is impossible to determine;
+(b) either perform appropriate adjustments in the external data or be able to
+demonstrate that the difference is negligible in terms of the impact on all risk
+parameters and own funds requirements,
+69. Regarding the totality of the differences identified in the definition of default resulting from
+the assessment of paragraph 67 and taking into account the adjustments performed in
+accordance with point (b) of paragraph 68, institutions should be able to demonstrate to
+competent authorities that broad equivalence with the internal definition of default has been
+achieved, including, where possible by comparing the default rate in internal data on a
+relevant type of exposures with external data.
+70. Where the assessment of paragraph 67 identifies differences in the definition of default
+which the process of paragraph 68 reveals to be non-negligible but not possible to overcome
+by adjustments in the external data, institutions are required to adopt an appropriate margin
+of conservatism in the estimation of risk parameters as referred to in Article 179(1)(f) of
+Regulation (EU) No 575/2013. In that case institutions should ensure that this additional
+margin of conservatism reflects the materiality of the remaining differences in the definition
+of default and their possible impact on all risk parameters.
+7 Criteria for the return to a nondefaulted status Minimum conditions for reclassification to a non-defaulted status
+71. For the purposes of the application of Article 178(5) of Regulation (EU) 575/2013, except for
+situations referred to in paragraph 72, institutions should apply all of the following:
+(a) consider that no trigger of default continues to apply to a previously defaulted
+exposure, where at least 3 months have passed since the moment that the conditions 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+35
+referred to in Articles 178(1)(b) and 178(3) of Regulation (EU) No 575/2013 cease to
+be met;
+(b) take into account the behaviour of the obligor during the period referred to in point
+(a);
+(c) take into account the financial situation of the obligor during the period referred to in
+point (a);
+(d) after the period referred to in point (a), perform an assessment, and, where the
+institution still finds that the obligor is unlikely to pay its obligations in full without
+recourse to realising security, the exposures should continue to be classified as
+defaulted until the institution is satisfied that the improvement of the credit quality is
+factual and permanent;
+(e) the conditions referred to in points (a) to (d) should be met also with regard to new
+exposures to the obligor, in particular where the previous defaulted exposures to this
+obligor were sold or written off.
+Institutions may apply the period referred to in point (a) to all exposures or apply different
+periods for different types of exposures.
+72. For the purposes of the application of Article 178(5) of Regulation (EU) 575/2013, and where
+distressed restructuring according to paragraph 49 of these guidelines applies to a defaulted
+exposure, regardless of whether such restructuring was carried out before or after the
+identification of default, institutions should consider that no trigger of default continues to
+apply to a previously defaulted exposure, where at least 1 year has passed from the latest
+between one of the following events:
+(a) the moment of extending the restructuring measures;
+(b) the moment when the exposure has been classified as defaulted;
+(c) the end of the grace period included in the restructuring arrangements.
+73. Institutions should reclassify the exposure to a non-defaulted status after at least the one
+year period referred to in the previous paragraph, where all of the following conditions are
+met:
+(a) during that period a material payment has been made by the obligor; material
+payment may be considered to be made where the debtor has paid, via its regular
+payments in accordance with the restructuring arrangements, a total equal to the
+amount that was previously past-due (if there were past-due amounts) or that has
+been written-off (if there were no past-due amounts) under the restructuring
+measures; 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+36
+(b) during that period the payments have been made regularly according to the schedule
+applicable after the restructuring arrangements;
+(c) there are no past due credit obligations according to the schedule applicable after the
+restructuring arrangements;
+(d) no indications of unlikeliness to pay as specified in Article 178(3) of Regulation (EU) No
+575/2013 or any additional indications of unlikeliness to pay specified by the
+institution apply;
+(e) the institution does not consider it otherwise unlikely that the obligor will pay its credit
+obligations in full according to the schedule after the restructuring arrangements
+without recourse to realising security. In this assessment institutions should examine
+in particular situations where a large lumpsum payment or significantly larger
+payments are envisaged at the end of the repayment schedule;
+(f) the conditions referred to in points (a) to (e) should be met also with regard to new
+exposures to the obligor, in particular where the previous defaulted exposures to this
+obligor that were subject to distressed restructuring were sold or written off.
+74. Where the obligor changes due to an event such as a merger or acquisition of the obligor or
+any other similar transaction, the institution should not apply paragraph 73(a). Where the
+obligor’s name changes, instead, institutions should apply that paragraph.
+Monitoring of the effectiveness of the policy
+75. For the purposes of the application of Article 178(5) of Regulation (EU) 575/2013, an
+institution should define clear criteria and policies regarding when the obligor can be
+classified back to non-defaulted status and more in particular, both of the following:
+(a) when it can be considered that the improvement of the financial situation of an
+obligor is sufficient to allow the full and timely repayment of the credit obligation;
+(b) when the repayment is actually likely to be made even where there is an
+improvement in the financial situation of an obligor in accordance with point (a).
+76. Institutions should monitor on a regular basis the effectiveness of their policies mentioned in
+paragraph 75, and in particular monitor and analyse:
+(a) the changes of status of the obligors or facilities;
+(b) the impact of the adopted policies on cure rates;
+(c) the impact of adopted policies on multiple defaults. 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+37
+77. It is expected that the institution would have a limited number of obligors who default soon
+after returning to a non-defaulted status. In the case of extensive number of multiple defaults
+the institution should revise its policies with regard to the reclassification of exposures.
+78. The analysis of the changes in statuses of the obligors or facilities should in particular be
+taken into account for the purpose of specifying the periods referred to in paragraphs 71 and
+72. Institutions may specify longer periods for the exposures that have been classified as
+defaulted in the preceding 24 months.
+8 Consistency in the application of the definition of default 
+Overview
+79. Institutions should adopt adequate mechanisms and procedures in order to ensure that the
+definition of default is implemented and used in a correct manner, and should, in particular,
+ensure:
+(a) that default of a single obligor is identified consistently across the institution with
+regard to all exposures to this obligor in all relevant IT systems, including in all the
+legal entities within the group and in all geographical locations in accordance with
+paragraphs 80 to 82 or for retail exposures in accordance with paragraphs 92 to 94;
+(b) that one of the following applies:
+i. the same definition of default is used consistently by an institution, parent
+undertaking or any of its subsidiaries and across the types of exposures;
+ii. where different definitions of default apply either within a group or across
+the types of exposures, the scope of application of each of the default
+definitions is clearly specified, in accordance with paragraphs 83 to 85;
+Consistent identification of default of a single obligor
+80. For the purposes of point (a) of paragraph 79, institutions should implement adequate
+procedures and mechanisms to ensure that the default of a single obligor is identified
+consistently across the institution with regard to all exposures to this obligor in all relevant IT
+systems, including in all the legal entities within the group and in all geographical locations
+where it is active in ways other than via a legal entity.
+81. Where the exchange of client data among different legal entities within an institution, the
+parent undertaking or any of its subsidiaries is prohibited by consumer protection regulations, 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+38
+bank secrecy or other legislation resulting in inconsistencies in the identification of default of
+an obligor, institutions should inform their competent authorities of these legal impediments
+and, if they use the IRB Approach they should also estimate the materiality of the
+inconsistencies in the identification of default of an obligor and their possible impact on the
+estimates of risk parameters.
+82. Further, where the identification of default of an obligor in a manner fully consistent across
+the institution, the parent undertaking or any of its subsidiaries is very burdensome, requiring
+development of a centralised database of all clients or implementation of other mechanisms
+or procedures to verify the status of each client at all entities within the group, institutions
+need not apply such mechanisms or procedures if they can demonstrate that the effect of
+non-compliance is immaterial because there are no or very limited number of common clients
+among the relevant entities within a group and the exposure to these clients is immaterial.
+Consistent use of the definition of default across types of
+exposures
+83. For the purposes of point (b) of paragraph 79, an institution, parent undertaking or any of its
+subsidiaries should use the same definition of default for a single type of exposures as defined
+in point (2) of Article 142(1) pf Regulation (EU) No 575/2013. They may use different
+definitions of default for different types of exposures, including for certain legal entities or for
+presence in geographical locations in ways other than via a legal entity, where this is justified
+by the application of significantly different internal risk management practices or by different
+legal requirements applying in different jurisdictions, in particular by reasons such as:
+(a) different materiality thresholds set by competent authorities in their jurisdictions in
+accordance with point (d) of Article 178(2) of Regulation (EU) No 575/2013;
+(b) the use of 180 days instead of 90 days past due for certain types of exposures to
+which the IRB Approach is applied in some jurisdictions in accordance with point (b)
+of Article 178(1) of Regulation (EU) No 575/2013;
+(c) the specification of additional indications of unlikeliness to pay specific for certain
+legal entities, geographical locations or types of exposures.
+84. For the purposes of point (b)(ii) of paragraph 79, and where different definitions of default
+are applied either across types of exposures in accordance with paragraph 83, the
+institutions’ internal procedures relating to the definition of default should ensure both of the
+following:
+(a) that the scope of application of each definition is clearly specified;
+(b) that the definition of default specified for a certain type of exposures, legal entity or
+geographical location is applied consistently to all exposures within the scope of
+application of each relevant definition of default.
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+39
+85. Further, for institutions that use the IRB Approach, the use of different default definitions has
+to be adequately reflected in the estimation of risk parameters in the case of ratings systems
+which scope of application encompasses different default definitions.
+9 Application of the definition of default for retail exposures
+Level of application of the default definition for retail exposures
+86. According to the second sub-paragraph of Article 178(1) of Regulation (EU) No 575/2013, in
+the case of retail exposures, institutions may apply the definition of default at the level of an
+individual credit facility rather than in relation to the total obligations of a borrower.
+Therefore, institutions that use the IRB Approach, in particular, may apply the definition of
+default at the level of the individual facility for retail exposures as defined in Article 147(5) of
+Regulation (EU) 575/2013. Institutions that use the Standardised Approach, instead may apply
+the definition of default at the level of an individual credit facility for all exposures that meet
+the criteria specified in Article 123 of Regulation (EU) 575/2013, even where some of those
+exposures have been assigned to a different exposure class for the purpose of assigning a risk
+weight, such as exposures secured by mortgages on immovable property.
+87. Institutions should choose the level of application of the definition of default between obligor
+and facility for all retail exposures in a way that reflects their internal risk management
+practices.
+88. Institutions may apply the definition of default at the level of an obligor for some types of
+retail exposures and at the level of a credit facility for others, where this is well justified by
+internal risk management practices, for instance due to a different business model of a
+subsidiary, and where there is evidence that the number of situations where the same clients
+are subject to different definitions of default at different levels of application is kept to a strict
+minimum.
+89. Where institutions decide to use different levels of application of the definition of default for
+different types of retail exposures, according to paragraph 88, they should ensure that the
+scope of application of each definition of default is clearly specified and that it is used
+consistently over time for different types of retail exposures. In the case of institutions that
+use the IRB Approach the risk estimates should correctly reflect the definition of default
+applied to each type of exposures.
+90. Where institutions use different levels of application of the default definition with regard to
+certain retail portfolios, the treatment of common clients across such portfolios should be
+specified in their internal policies and procedures. In particular, where the exposure to which 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+40
+the definition of default at the obligor level applies fulfils either or both of the conditions of
+points (a) or (b) of Article 178(1) of Regulation (EU) No 575/2013, then all exposures to that
+obligor should be considered defaulted, including those subject to the application of the
+definition of default at individual credit facility level. Where the exposure subject to the
+application of the definition of default at individual credit facility level meets those
+conditions, the other exposures to the obligor should not be automatically reclassified to
+default status. Institutions, however, may classify those other exposures as defaulted on the
+basis of other unlikeliness to pay considerations, as provided further in paragraphs 92 to 94.
+91. The same rule should apply to the obligors treated under the Standardised Approach, where
+some exposures to an obligor fulfil the requirements of Article 123 of Regulation (EU)
+575/2013 while other exposures to the same obligor are in the form of securities and
+therefore do not qualify as retail. Where an exposure in the form of a security fulfils either or
+both of the conditions of points (a) or (b) of Article 178(1) of Regulation (EU) No 575/2013, all
+exposures to that obligor should be considered defaulted. Where the exposure that fulfils the
+requirements of Article 123 of Regulation (EU) 575/2013 meets those conditions and the
+institution applies the definition of default at the individual credit facility level, the other
+exposures to the obligor should not be automatically reclassified to default status.
+Institutions, however, may classify those other exposures as defaulted on the basis of other
+unlikeliness to pay considerations, as provided further in paragraphs 92 to 94.
+Application of the definition of default for retail exposures at the
+facility level
+92. Where, in accordance with the second sub-paragraph of Article 178(1) of Regulation (EU) No
+575/2013, the definition of default has been applied at the level of an individual credit facility
+with regard to retail exposures, institutions should not consider automatically the different
+exposures to the same obligor defaulted at the same time. Nevertheless institutions should
+take into account that some indications of default are related with the condition of the
+obligor rather than the status of a particular exposure. This refers in particular to the
+indications of unlikeliness to pay related with the bankruptcy of the obligor as specified in
+points (e) and (f) of Article 178(3) of Regulation (EU) No 575/2013. Where such indication of
+default occurs, institutions should treat all exposures to the same obligor as defaulted
+regardless of the level of application of the definition of default.
+93. Institutions should consider also other indications of unlikeliness to pay and specify, in line
+with their internal policies and procedures, which indications of unlikeliness to pay reflect the
+overall situation of an obligor rather than that of the exposure. Where such other indications
+of unlikeliness to pay occur, all exposures to the obligor should be considered defaulted
+regardless of the level of application of the definition of default.
+94. Additionally, where a significant part of the exposures to the obligor is in default, institutions
+may consider it unlikely that the other obligations of that obligor will be paid in full without
+recourse to actions such as realising security and treat them as defaulted as well. 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+41
+Application of the definition of default for retail exposures at the
+obligor level
+95. The application of the definition of default for retail exposures at the obligor level implies
+that, where any credit obligation of the obligor meets the conditions of points (a) or (b) or
+both of Article 178(1) of Regulation (EU) No 575/2013, then all exposures to that obligor
+should be considered defaulted. Institutions that decide to apply the definition of default for
+retail exposures at the obligor level should specify detailed rules for the treatment of joint
+credit obligations and default contagion between exposures in their internal policies and
+procedures.
+96. Institutions should consider a joint credit obligation as an exposure to two or more obligors
+that are equally responsible for the repayment of the credit obligation. This notion does not
+extend to a credit obligation of an individual obligor secured by another individual or entity in
+the form of a guarantee or other credit protection.
+97. Where the conditions of points (a) or (b) or both of Article 178(1) of Regulation (EU) No
+575/2013 are met with regard to a joint credit obligation of two or more obligors, institutions
+should consider all other joint credit obligations of the same set of obligors and all individual
+exposures to those obligors as defaulted, unless they can justify that the recognition of
+default on individual exposures is not appropriate because at least one of the following
+conditions apply:
+(a) the delay in payment of a joint credit obligation results from a dispute between the
+individual obligors participating in the joint credit obligation that has been introduced
+to a court or another formal procedure performed by a dedicated external body that
+results in a binding ruling in accordance with the applicable legal framework in the
+relevant jurisdiction, and there is no concern about the financial situation of the
+individual obligors;
+(b) a joint credit obligation is an immaterial part of the total obligations of an individual
+obligor.
+98. The default of a joint credit obligation should not cause the default of other joint credit
+obligations of individual obligors with other individuals or entities, which are not involved in
+the credit obligation that has initially been defaulted; however, institutions should assess
+whether the default of the joint credit obligation at hand constitutes an indication of
+unlikeliness to pay with regard to the other joint credit obligations.
+99. Where the conditions of points (a) or (b) or both of Article 178(1) of Regulation (EU) No
+575/2013 are met with regard to the credit obligation of an individual obligor, the contagious
+effect of this default should not automatically spread to any joint credit obligations of that
+obligor; nevertheless, institutions should assess such joint credit obligations for possible
+indications of unlikeliness to pay related with the default of one of the obligors. In any case, 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+42
+where all individual obligors have a defaulted status, their joint credit obligation should
+automatically also be considered defaulted.
+100. Institutions should identify, on the basis of the analysis of relevant legal provisions in a
+jurisdiction, and provide in their internal policies and procedures for the identification of the
+obligors that are legally fully liable for certain obligations jointly and severally with other
+obligors, therefore being fully liable for the entire amount of those obligations, but excluding
+credit obligations of an individual obligor secured by another individual or entity in the form
+of a guarantee or other credit protection. A typical example would be a married couple
+where, based on specific legal provisions applicable in the relevant jurisdiction, division of
+marital property (system of separate estates) does not apply. In the case of full mutual
+liability for all obligations, default of one of such obligors should be considered an indication
+of potential unlikeliness to pay of the other obligor and therefore institutions should assess
+whether the individual and joint credit obligations of these obligors should be considered
+defaulted. Where one of the joint and several obligors that are legally fully liable for all
+obligations, has a joint credit obligation with another client, the institution should assess
+whether indications of unlikeliness to pay occur also on the other joint credit obligations with
+third parties.
+101. Institutions should also analyse the forms of legal entities in relevant jurisdictions and the
+extent of liability of the owners, partners, shareholders or managers for the obligations of a
+company depending on the legal form of the entity. Where an individual is fully liable for the
+obligations of a company, default of that company should result in that individual being
+considered defaulted as well. Where such full liability for the obligations of a company does
+not exist, owners, partners or significant shareholders of a defaulted company should be
+assessed by the institution for possible indications of unlikeliness to pay with regard to their
+individual obligations.
+102. Additionally, in the specific case of an individual entrepreneur where an individual is fully
+liable for both private and commercial obligations with both private and commercial assets
+the default of any of the private or commercial obligations should cause all private and
+commercial obligations of such individual to be considered as defaulted as well.
+103. Where the definition of default is applied at the level of an obligor for retail exposures,
+the materiality threshold should also be applied at the level of an obligor. Institutions should
+clearly specify in their internal policies and procedures the treatment of joint credit
+obligations in the application of the materiality threshold.
+104. A joint obligor, i.e. a specific set of individual obligors that have a joint obligation towards
+an institution, should be treated as a different obligor from each of the individual obligors. In
+the case the delay in payment occurs on a joint credit obligation, the materiality of such delay
+should be assessed by applying the materiality threshold referred to in point (d) of Article
+178(2) of Regulation (EU) No 575/2013 to all joint credit obligations granted to this specific
+set of obligors. For this purpose the individual exposures to obligors participating in a joint 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+43
+credit obligation or to any other subsets of such obligors should not be taken into account.
+However, where the materiality threshold for a joint obligor calculated in this way is
+breached, all joint credit obligations of this set of obligors and all individual exposures to the
+obligors participating in a joint credit obligation should be considered defaulted unless any of
+the conditions specified in paragraph 97 is met.
+105. When delay in payment occurs on an individual credit obligation, the materiality of such
+delay should be assessed by applying the materiality threshold referred to in point (d) of
+Article 178(2) of Regulation (EU) No 575/2013 to all individual credit obligations of this
+obligor, without taking into account any joint credit obligations of that obligor with other
+individuals or entities. Where the materiality threshold calculated in this way is breached, all
+individual exposures to this obligor should be considered defaulted.
+10 Documentation, internal policies and risk management processes
+Timeliness of the identification of default
+106. Institutions should have effective processes that allow them to obtain the relevant
+information in order to identify defaults in a timely manner, and to channel the relevant
+information in the shortest possible time and, where possible, in an automated manner, to
+the personnel that is responsible for taking credit decisions, and more in particular:
+(a) where they apply automatic processes, such as counting of days past due, the
+identification of indications of default should be performed on a daily basis;
+(b) where they implement manual processes, such as checking external sources and
+databases, analysis of watch lists, analysis of the lists of forborne exposures,
+identification of SCRA, the information should be updated with a frequency that
+guarantees the timely identification of default.
+107. Institutions should verify on a regular basis that all forborne non-performing exposures
+are classified as default and subject to distressed restructuring. Institutions should also
+analyse on a regular basis the forborne performing exposures in order to determine whether
+any of them fulfils the indication of unlikeliness to pay as specified in Article 178(3)(d) of
+Regulation (EU) No 575/2013 and in paragraphs 49 to 55.
+108. Control mechanisms should ensure that the relevant information is used in the default
+identification process immediately after being obtained. All exposures to a defaulted obligor
+or all relevant exposures in case of the application of the definition of default at the facility
+level for retail exposures should be marked as defaulted in all relevant IT systems without 
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+44
+undue delay. If delays occur in the recording of the default, such delays should not lead to
+errors or inconsistencies in risk management, risk reporting, the own funds requirements
+calculation or the use of data in risk quantification. In particular it should be ensured that the
+internal and external reporting figures reflect a situation where all exposures are correctly
+classified.
+Documentation
+109. Institutions should document their policies regarding the definition of default including all
+triggers for identification of default and the exit criteria as well as clear identification of the
+scope of application of the definition of default and, more in particular they should:
+(a) document the operationalisation of all indications of default;
+(b) document the operationalisation of the criteria for reclassification of a defaulted
+obligor to a non-defaulted status;
+(c) keep an updated register of all definitions of default.
+110. For the purposes of point (a) of paragraph 109, institutions should document the
+application of the definition of default in a detailed manner by including the
+operationalization of all indications of default, including the process, sources of information
+and responsibilities for the identification of particular indications of default.
+111. For the purposes of point (b) of paragraph 109, institutions should document the
+operationalization of the criteria for reclassification of a defaulted obligor to a non-defaulted
+status, including the processes, sources of information and responsibilities assigned to
+relevant personnel.
+112. For the purposes of paragraphs 110 and 111, the documentation should include
+description of all automatic mechanisms and manual processes, and where qualitative
+indications of default or criteria for the return to non-defaulted status are applied manually
+the description should be sufficiently detailed to facilitate common understanding and
+consistent application by all responsible personnel.
+113. For the purposes of point (c) of paragraph 109, institutions should keep an updated
+register of all current and past versions of the default definition at least starting from the date
+of application of these guidelines. This register should include at least the following
+information:
+(a) the scope of application of the default definition, if there is more than one default
+definition used within the institution, the parent undertaking or any of its
+subsidiaries;
+FINAL REPORT ON GUIDELINES ON THE APPLICATION OF THE DEFINITION OF DEFAULT
+45
+(b) the body approving the definition or definitions of default and date of approval for
+each of those definitions of default;
+(c) the date of implementation of each definition of default;
+(d) brief description of all changes performed relatively to the last version;
+(e) in the case of institutions that have permission to use the IRB Approach, the change
+category assigned, the date of submission to the competent authorities and, if
+applicable, the date of approval by the competent authorities.
+Internal governance requirements for institutions applying the IRB
+Approach
+114. Institutions that use the IRB Approach should adopt adequate mechanisms and
+procedures in order to ensure that the definition of default is implemented and used in a
+correct manner, and should in particular ensure that:
+(a) the definition of default and the scope of its application is what is required to be
+approved by the management body, or by a committee designated by it, and by
+senior management in accordance with Article 189(1) of Regulation (EU) 575/2013;
+(b) the definition of default is used consistently for the purpose of the own funds
+requirements calculation and plays a meaningful role in the internal risk management
+processes by being used at least in the area of monitoring of exposures and in the
+internal reporting to senior management and management body;
+(c) the internal audit unit or another comparable independent auditing unit reviews
+regularly the robustness and effectiveness of the process used by the institution for
+the identification of default, taking into account in particular the timeliness of the
+identification of default referred to in paragraphs 106 to 108; and ensuring that the
+conclusions of the internal audit’s review and respective recommendations, as well as
+the measures taken to remedy the identified weaknesses are communicated directly
+to the management body or the committee designated by it.
